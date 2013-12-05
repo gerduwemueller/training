@@ -1,7 +1,11 @@
 package de.muellerbensheim.hallowelt;
 
 
-
+/**
+ * 
+ * @author sascha
+ *
+ */
 public class Hallowelt {
 
 	public static void main(String[] args) {

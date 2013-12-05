@@ -1,7 +1,11 @@
 package de.muellerbensheim.hallowelt;
 
 import de.muellerbensheim.strategy.*; 
-
+/** 
+ * 
+ * @author sascha
+ *
+ */
 public class ClientStrategy {
 
 	public static void main(String[] args) {

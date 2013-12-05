@@ -3,7 +3,7 @@ package de.muellerbensheim.hallowelt;
 
 /**
  * 
- * @author sascha
+ * @author sascha und gerd
  *
  */
 public class Hallowelt {

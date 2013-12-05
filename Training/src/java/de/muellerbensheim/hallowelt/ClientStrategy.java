@@ -3,7 +3,7 @@ package de.muellerbensheim.hallowelt;
 import de.muellerbensheim.strategy.*; 
 /** 
  * 
- * @author sascha
+ * @author sascha1
  *
  */
 public class ClientStrategy {

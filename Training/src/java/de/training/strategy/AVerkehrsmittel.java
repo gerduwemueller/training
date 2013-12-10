@@ -1,4 +1,4 @@
-package de.muellerbensheim.strategy;
+package de.training.strategy;
 
 abstract class AVerkehrsmittel {
 	

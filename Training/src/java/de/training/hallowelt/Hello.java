@@ -1,4 +1,4 @@
-package de.muellerbensheim.hallowelt;
+package de.training.hallowelt;
 
 public class Hello {
 	public static void main(String[] args) {

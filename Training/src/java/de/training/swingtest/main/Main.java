@@ -1,8 +1,8 @@
-package de.muellerbensheim.swingtest.main;
+package de.training.swingtest.main;
 
-import de.muellerbensheim.swingtest.controller.MeinController;
-import de.muellerbensheim.swingtest.model.MeinModel;
-import de.muellerbensheim.swingtest.view.MeineView;
+import de.training.swingtest.controller.MeinController;
+import de.training.swingtest.model.MeinModel;
+import de.training.swingtest.view.MeineView;
 
 public class Main {
 	

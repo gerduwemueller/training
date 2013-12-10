@@ -1,9 +1,10 @@
-package de.muellerbensheim.swingtest.controller;
+package de.training.swingtest.controller;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import de.muellerbensheim.swingtest.model.*;
-import de.muellerbensheim.swingtest.view.*;
+
+import de.training.swingtest.model.*;
+import de.training.swingtest.view.*;
 
 public class MeinController {
 	

@@ -1,4 +1,4 @@
-package de.muellerbensheim.swingtest.model;
+package de.training.swingtest.model;
 
 public class MeinModel {
 

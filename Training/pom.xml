@@ -5,7 +5,13 @@
 	<artifactId>training</artifactId>
 	<version>0.0.1</version>
 	<groupId>de.bensheim</groupId>
-
+	<dependencies>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.6</version>
+		</dependency>
+	</dependencies>
 	<build>
 	</build>
 </project>

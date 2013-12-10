@@ -1,4 +1,4 @@
-package de.muellerbensheim.swingtest.document;
+package de.training.swingtest.document;
 
 import javax.swing.text.AttributeSet;
 import javax.swing.text.BadLocationException;

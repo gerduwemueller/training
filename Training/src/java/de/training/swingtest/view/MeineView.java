@@ -1,4 +1,4 @@
-package de.muellerbensheim.swingtest.view;
+package de.training.swingtest.view;
 
 import java.awt.FlowLayout;
 import java.awt.event.ActionListener;
@@ -10,7 +10,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 
-import de.muellerbensheim.swingtest.document.NumberDocument;
+import de.training.swingtest.document.NumberDocument;
 
 public class MeineView extends JFrame {
 

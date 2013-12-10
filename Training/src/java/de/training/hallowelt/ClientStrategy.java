@@ -1,6 +1,6 @@
-package de.muellerbensheim.hallowelt;
+package de.training.hallowelt;
 
-import de.muellerbensheim.strategy.*; 
+import de.training.strategy.*;
 /** 
  * 
  * @author sascha1

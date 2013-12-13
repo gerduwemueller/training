@@ -1,449 +1,0 @@
-[INFO] Scanning for projects...
-[INFO] ------------------------------------------------------------------------
-[INFO] Building Unnamed - de.bensheim:training:war:0.0.1
-[INFO]    task-segment: [package]
-[INFO] ------------------------------------------------------------------------
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.3/maven-resources-plugin-2.3.pom
-4/4K4/4K4K downloaded  (maven-resources-plugin-2.3.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-plugins/12/maven-plugins-12.pom
-2/11K5/11K8/11K11/11K11K downloaded  (maven-plugins-12.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-parent/9/maven-parent-9.pom
-2/32K3/32K6/32K9/32K12/32K15/32K16/32K17/32K19/32K20/32K22/32K23/32K24/32K26/32K27/32K29/32K30/32K32/32K32K downloaded  (maven-parent-9.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/apache/4/apache-4.pom
-2/4K4/4K4K downloaded  (apache-4.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.3/maven-resources-plugin-2.3.jar
-2/20K3/20K5/20K6/20K8/20K9/20K10/20K12/20K13/20K15/20K16/20K17/20K19/20K20/20K20K downloaded  (maven-resources-plugin-2.3.jar)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
-1/9K2/9K3/9K5/9K6/9K8/9K9/9K9K downloaded  (maven-compiler-plugin-3.1.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom
-2/10K5/10K6/10K8/10K9/10K10/10K10K downloaded  (maven-plugins-24.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-parent/23/maven-parent-23.pom
-2/31K3/31K5/31K6/31K8/31K9/31K10/31K12/31K13/31K15/31K16/31K17/31K19/31K20/31K22/31K23/31K24/31K26/31K27/31K29/31K30/31K31/31K31K downloaded  (maven-parent-23.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom
-2/13K3/13K5/13K8/13K10/13K12/13K13/13K13K downloaded  (apache-13.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
-1/41K2/41K3/41K5/41K6/41K8/41K9/41K10/41K12/41K13/41K15/41K16/41K17/41K19/41K20/41K22/41K23/41K24/41K26/41K27/41K29/41K30/41K31/41K33/41K34/41K36/41K37/41K39/41K41/41K41/41K41K downloaded  (maven-compiler-plugin-3.1.jar)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.10/maven-surefire-plugin-2.10.pom
-1/10K2/10K3/10K5/10K6/10K8/10K10/10K10K downloaded  (maven-surefire-plugin-2.10.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/surefire/surefire/2.10/surefire-2.10.pom
-3/11K5/11K6/11K9/11K10/11K11/11K11K downloaded  (surefire-2.10.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-parent/20/maven-parent-20.pom
-1/24K2/24K3/24K5/24K6/24K8/24K9/24K10/24K12/24K13/24K15/24K16/24K17/24K20/24K22/24K24/24K24K downloaded  (maven-parent-20.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/apache/9/apache-9.pom
-1/14K2/14K3/14K5/14K6/14K8/14K9/14K10/14K12/14K13/14K14/14K14K downloaded  (apache-9.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.10/maven-surefire-plugin-2.10.jar
-1/29K2/29K3/29K5/29K6/29K9/29K12/29K15/29K16/29K17/29K19/29K20/29K23/29K24/29K26/29K27/29K29/29K29K downloaded  (maven-surefire-plugin-2.10.jar)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.1.1/maven-war-plugin-2.1.1.pom
-2/6K3/6K5/6K6/6K6K downloaded  (maven-war-plugin-2.1.1.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-plugins/18/maven-plugins-18.pom
-1/12K2/12K3/12K5/12K6/12K8/12K9/12K10/12K12/12K12K downloaded  (maven-plugins-18.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-parent/16/maven-parent-16.pom
-1/22K2/22K3/22K5/22K6/22K8/22K9/22K10/22K12/22K13/22K15/22K16/22K17/22K20/22K22/22K22/22K22K downloaded  (maven-parent-16.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/apache/7/apache-7.pom
-1/14K2/14K3/14K6/14K8/14K9/14K10/14K12/14K14/14K14K downloaded  (apache-7.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.1.1/maven-war-plugin-2.1.1.jar
-1/75K2/75K3/75K5/75K6/75K8/75K9/75K10/75K13/75K15/75K16/75K17/75K19/75K20/75K22/75K23/75K24/75K26/75K29/75K30/75K31/75K33/75K34/75K36/75K37/75K39/75K40/75K41/75K43/75K46/75K47/75K48/75K50/75K51/75K53/75K54/75K55/75K57/75K58/75K61/75K62/75K64/75K65/75K67/75K68/75K69/75K71/75K72/75K74/75K75/75K75K downloaded  (maven-war-plugin-2.1.1.jar)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.pom
-1/1K1K downloaded  (maven-plugin-api-2.0.6.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven/2.0.6/maven-2.0.6.pom
-1/8K2/8K3/8K5/8K6/8K8/8K8K downloaded  (maven-2.0.6.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-parent/5/maven-parent-5.pom
-1/14K2/14K3/14K5/14K6/14K8/14K9/14K10/14K12/14K14/14K14K downloaded  (maven-parent-5.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/apache/3/apache-3.pom
-1/3K3/3K3K downloaded  (apache-3.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.pom
-1/2K2/2K2K downloaded  (maven-project-2.0.6.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.pom
-1/1K1/1K1K downloaded  (maven-settings-2.0.6.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.pom
-1/2K2/2K2K downloaded  (maven-model-2.0.6.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/1.4.1/plexus-utils-1.4.1.pom
-1/1K1K downloaded  (plexus-utils-1.4.1.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus/1.0.11/plexus-1.0.11.pom
-2/8K3/8K5/8K6/8K8/8K8K downloaded  (plexus-1.0.11.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.pom
-1/3K2/3K3/3K3K downloaded  (plexus-container-default-1.0-alpha-9-stable-1.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-containers/1.0.3/plexus-containers-1.0.3.pom
-492/492b492b downloaded  (plexus-containers-1.0.3.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus/1.0.4/plexus-1.0.4.pom
-1/5K2/5K3/5K5/5K5K downloaded  (plexus-1.0.4.pom)
-Downloading: http://repo1.maven.org/maven2/junit/junit/3.8.1/junit-3.8.1.pom
-998/998b998b downloaded  (junit-3.8.1.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.pom
-1/6K2/6K3/6K5/6K6/6K6K downloaded  (plexus-utils-1.0.4.pom)
-Downloading: http://repo1.maven.org/maven2/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.pom
-2/3K3/3K3K downloaded  (classworlds-1.1-alpha-2.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.pom
-1/1K1/1K1K downloaded  (maven-profile-2.0.6.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.pom
-2/2K2K downloaded  (maven-artifact-manager-2.0.6.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.pom
-1/1K1K downloaded  (maven-repository-metadata-2.0.6.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.pom
-1/1K1K downloaded  (maven-artifact-2.0.6.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.pom
-680/680b680b downloaded  (wagon-provider-api-1.0-beta-2.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon/1.0-beta-2/wagon-1.0-beta-2.pom
-1/5K2/5K3/5K5/5K5/5K5K downloaded  (wagon-1.0-beta-2.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-parent/4/maven-parent-4.pom
-1/9K2/9K3/9K5/9K6/9K8/9K9/9K9K downloaded  (maven-parent-4.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.pom
-1/1K1K downloaded  (maven-plugin-registry-2.0.6.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.pom
-1/5K2/5K3/5K5/5K5K downloaded  (plexus-utils-1.5.6.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus/1.0.12/plexus-1.0.12.pom
-1/9K2/9K3/9K5/9K6/9K8/9K9/9K9K downloaded  (plexus-1.0.12.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.pom
-1/3K2/3K3/3K3K downloaded  (maven-filtering-1.0-beta-2.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-components/10/maven-shared-components-10.pom
-1/8K2/8K3/8K5/8K6/8K8/8K8K downloaded  (maven-shared-components-10.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.pom
-2/6K3/6K6/6K6K downloaded  (maven-core-2.0.6.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-file/1.0-beta-2/wagon-file-1.0-beta-2.pom
-637/637b637b downloaded  (wagon-file-1.0-beta-2.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-providers/1.0-beta-2/wagon-providers-1.0-beta-2.pom
-1/1K1K downloaded  (wagon-providers-1.0-beta-2.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.pom
-1/1K1K downloaded  (maven-plugin-parameter-documenter-2.0.6.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-http-lightweight/1.0-beta-2/wagon-http-lightweight-1.0-beta-2.pom
-1/1K1K downloaded  (wagon-http-lightweight-1.0-beta-2.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-http-shared/1.0-beta-2/wagon-http-shared-1.0-beta-2.pom
-845/845b845b downloaded  (wagon-http-shared-1.0-beta-2.pom)
-Downloading: http://repo1.maven.org/maven2/jtidy/jtidy/4aug2000r7-dev/jtidy-4aug2000r7-dev.pom
-1/1K1K downloaded  (jtidy-4aug2000r7-dev.pom)
-Downloading: http://repo1.maven.org/maven2/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.pom
-2/2K2K downloaded  (xml-apis-1.0.b2.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.pom
-1/1K1K downloaded  (maven-reporting-api-2.0.6.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/reporting/maven-reporting/2.0.6/maven-reporting-2.0.6.pom
-1/1K1K downloaded  (maven-reporting-2.0.6.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.pom
-424/424b424b downloaded  (doxia-sink-api-1.0-alpha-7.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.0-alpha-7/doxia-1.0-alpha-7.pom
-1/3K2/3K3/3K3K downloaded  (doxia-1.0-alpha-7.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.pom
-1/1K1K downloaded  (maven-error-diagnostics-2.0.6.pom)
-Downloading: http://repo1.maven.org/maven2/commons-cli/commons-cli/1.0/commons-cli-1.0.pom
-2/2K2K downloaded  (commons-cli-1.0.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-ssh-external/1.0-beta-2/wagon-ssh-external-1.0-beta-2.pom
-1/1K1K downloaded  (wagon-ssh-external-1.0-beta-2.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-ssh-common/1.0-beta-2/wagon-ssh-common-1.0-beta-2.pom
-851/851b851b downloaded  (wagon-ssh-common-1.0-beta-2.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.pom
-1/6K2/6K3/6K5/6K6/6K6K downloaded  (plexus-interactivity-api-1.0-alpha-4.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-7/plexus-container-default-1.0-alpha-7.pom
-1/1K1K downloaded  (plexus-container-default-1.0-alpha-7.pom)
-Downloading: http://repo1.maven.org/maven2/plexus/plexus-containers/1.0.2/plexus-containers-1.0.2.pom
-471/471b471b downloaded  (plexus-containers-1.0.2.pom)
-Downloading: http://repo1.maven.org/maven2/plexus/plexus-root/1.0.3/plexus-root-1.0.3.pom
-1/5K2/5K3/5K5/5K5K downloaded  (plexus-root-1.0.3.pom)
-Downloading: http://repo1.maven.org/maven2/plexus/plexus-utils/1.0.2/plexus-utils-1.0.2.pom
-740/740b740b downloaded  (plexus-utils-1.0.2.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.pom
-1/1K1K downloaded  (maven-plugin-descriptor-2.0.6.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-monitor/2.0.6/maven-monitor-2.0.6.pom
-1/1K1K downloaded  (maven-monitor-2.0.6.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-ssh/1.0-beta-2/wagon-ssh-1.0-beta-2.pom
-1/1K1K downloaded  (wagon-ssh-1.0-beta-2.pom)
-Downloading: http://repo1.maven.org/maven2/com/jcraft/jsch/0.1.27/jsch-0.1.27.pom
-965/965b965b downloaded  (jsch-0.1.27.pom)
-Downloading: http://repo1.maven.org/maven2/classworlds/classworlds/1.1/classworlds-1.1.pom
-1/3K2/3K3/3K3K downloaded  (classworlds-1.1.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-interpolation/1.6/plexus-interpolation-1.6.pom
-1/2K2/2K2K downloaded  (plexus-interpolation-1.6.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.jar
-1/244K2/244K3/244K5/244K6/244K8/244K9/244K10/244K12/244K13/244K15/244K16/244K17/244K19/244K20/244K22/244K23/244K24/244K27/244K29/244K30/244K31/244K33/244K34/244K36/244K37/244K39/244K40/244K41/244K43/244K44/244K46/244K47/244K48/244K51/244K53/244K54/244K55/244K57/244K58/244K60/244K61/244K62/244K64/244K65/244K67/244K68/244K69/244K71/244K72/244K74/244K75/244K75/244K 1/32K75/244K 2/32K75/244K 5/32K75/244K 6/32K75/244K 8/32K75/244K 9/32K75/244K 10/32K75/244K 12/32K75/244K 13/32K76/244K 13/32K78/244K 13/32K79/244K 13/32K81/244K 13/32K82/244K 13/32K84/244K 13/32K85/244K 13/32K86/244K 13/32K88/244K 13/32K91/244K 13/32K92/244K 13/32K93/244K 13/32K95/244K 13/32K96/244K 13/32K98/244K 13/32K99/244K 13/32K100/244K 13/32K102/244K 13/32K103/244K 13/32K105/244K 13/32K106/244K 13/32K107/244K 13/32K109/244K 13/32K110/244K 13/32K112/244K 13/32K113/244K 13/32K114/244K 13/32K116/244K 13/32K117/244K 13/32K119/244K 13/32K120/244K 13/32K121/244K 13/32K123/244K 13/32K126/244K 13/32K126/244K 15/32K126/244K 16/32K126/244K 17/32K126/244K 19/32K126/244K 20/32K126/244K 22/32K126/244K 23/32K126/244K 24/32K126/244K 27/32K126/244K 29/32K126/244K 30/32K126/244K 32/32K32K downloaded  (maven-filtering-1.0-beta-2.jar)
-127/244K129/244K130/244K131/244K133/244K134/244K136/244K137/244K138/244K140/244K141/244K143/244K144/244K145/244K147/244K150/244K151/244K152/244K154/244K155/244K157/244K158/244K159/244K161/244K162/244K164/244K165/244K166/244K168/244K169/244K171/244K172/244K174/244K175/244K178/244K179/244K182/244K183/244K185/244K186/244K188/244K189/244K190/244K192/244K193/244K196/244K197/244K199/244K200/244K202/244K203/244K204/244K207/244K209/244K210/244K211/244K213/244K214/244K216/244K217/244K219/244K220/244K221/244K223/244K224/244K226/244K227/244K228/244K230/244K231/244K233/244K234/244K237/244K238/244K240/244K241/244K242/244K244/244K244K downloaded  (plexus-utils-1.5.6.jar)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-interpolation/1.6/plexus-interpolation-1.6.jar
-1/49K2/49K3/49K5/49K6/49K8/49K9/49K10/49K12/49K13/49K15/49K16/49K17/49K19/49K20/49K22/49K24/49K26/49K27/49K29/49K30/49K31/49K33/49K34/49K36/49K37/49K40/49K41/49K43/49K44/49K46/49K47/49K48/49K49/49K49K downloaded  (plexus-interpolation-1.6.jar)
-[INFO] [resources:resources {execution: default-resources}]
-[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory /home/gerd/git/training/Training/src/main/resources
-Downloading: http://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.pom
-1/1K1K downloaded  (mysql-connector-java-5.1.6.pom)
-Downloading: http://repo1.maven.org/maven2/junit/junit-dep/4.8.2/junit-dep-4.8.2.pom
-1/1K1K downloaded  (junit-dep-4.8.2.pom)
-Downloading: http://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
-481/481b481b downloaded  (hamcrest-core-1.1.pom)
-Downloading: http://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
-1/5K2/5K5/5K5/5K5K downloaded  (hamcrest-parent-1.1.pom)
-Downloading: http://repo1.maven.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom
-157/157b157b downloaded  (servlet-api-2.5.pom)
-Downloading: http://repo1.maven.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar
-Downloading: http://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
-Downloading: http://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar
-Downloading: http://repo1.maven.org/maven2/junit/junit-dep/4.8.2/junit-dep-4.8.2.jar
-1/102K2/102K5/102K6/102K8/102K9/102K10/102K12/102K13/102K15/102K16/102K17/102K19/102K20/102K22/102K23/102K24/102K26/102K27/102K29/102K30/102K31/102K33/102K34/102K36/102K37/102K39/102K40/102K41/102K43/102K44/102K46/102K47/102K48/102K50/102K51/102K53/102K54/102K55/102K57/102K58/102K60/102K61/102K62/102K64/102K65/102K67/102K68/102K69/102K72/102K74/102K75/102K76/102K76/102K 1/74K76/102K 2/74K76/102K 3/74K76/102K 6/74K76/102K 8/74K76/102K 9/74K76/102K 10/74K76/102K 12/74K76/102K 15/74K76/102K 16/74K76/102K 17/74K76/102K 19/74K76/102K 20/74K76/102K 23/74K76/102K 24/74K76/102K 26/74K78/102K 26/74K79/102K 26/74K81/102K 26/74K82/102K 26/74K84/102K 26/74K85/102K 26/74K86/102K 26/74K88/102K 26/74K89/102K 26/74K91/102K 26/74K93/102K 26/74K95/102K 26/74K96/102K 26/74K98/102K 26/74K99/102K 26/74K100/102K 26/74K102/102K 26/74K102K downloaded  (servlet-api-2.5.jar)
-27/74K29/74K30/74K31/74K33/74K36/74K37/74K39/74K40/74K41/74K44/74K44/74K 1/686K44/74K 2/686K44/74K 3/686K44/74K 5/686K44/74K 6/686K44/74K 8/686K44/74K 9/686K44/74K 10/686K44/74K 12/686K44/74K 13/686K46/74K 13/686K47/74K 13/686K48/74K 13/686K50/74K 13/686K51/74K 13/686K53/74K 13/686K55/74K 13/686K55/74K 13/686K 1/213K55/74K 13/686K 2/213K55/74K 13/686K 5/213K55/74K 13/686K 8/213K55/74K 13/686K 10/213K55/74K 13/686K 12/213K57/74K 13/686K 12/213K57/74K 13/686K 13/213K58/74K 13/686K 13/213K61/74K 13/686K 13/213K62/74K 13/686K 13/213K64/74K 13/686K 13/213K65/74K 13/686K 13/213K67/74K 13/686K 13/213K68/74K 13/686K 13/213K69/74K 13/686K 13/213K71/74K 13/686K 13/213K72/74K 13/686K 13/213K72/74K 15/686K 13/213K72/74K 16/686K 13/213K72/74K 17/686K 13/213K72/74K 19/686K 13/213K72/74K 20/686K 13/213K72/74K 22/686K 13/213K72/74K 23/686K 13/213K72/74K 26/686K 13/213K72/74K 27/686K 13/213K72/74K 29/686K 13/213K72/74K 31/686K 13/213K72/74K 34/686K 13/213K72/74K 36/686K 13/213K72/74K 37/686K 13/213K72/74K 39/686K 13/213K72/74K 40/686K 13/213K72/74K 41/686K 13/213K74/74K 41/686K 13/213K74/74K 41/686K 13/213K74K downloaded  (hamcrest-core-1.1.jar)
-41/686K 15/213K41/686K 16/213K41/686K 17/213K41/686K 19/213K41/686K 20/213K41/686K 22/213K41/686K 24/213K41/686K 26/213K41/686K 27/213K41/686K 29/213K41/686K 30/213K41/686K 31/213K41/686K 33/213K41/686K 34/213K41/686K 36/213K41/686K 37/213K41/686K 39/213K41/686K 40/213K43/686K 40/213K44/686K 40/213K46/686K 40/213K47/686K 40/213K48/686K 40/213K50/686K 40/213K51/686K 40/213K53/686K 40/213K55/686K 40/213K57/686K 40/213K58/686K 40/213K60/686K 40/213K61/686K 40/213K62/686K 40/213K64/686K 40/213K65/686K 40/213K67/686K 40/213K68/686K 40/213K69/686K 40/213K71/686K 40/213K72/686K 40/213K74/686K 40/213K75/686K 40/213K76/686K 40/213K78/686K 40/213K79/686K 40/213K81/686K 40/213K82/686K 40/213K82/686K 41/213K82/686K 43/213K82/686K 44/213K82/686K 46/213K82/686K 47/213K82/686K 48/213K82/686K 50/213K82/686K 51/213K82/686K 53/213K82/686K 54/213K82/686K 55/213K82/686K 58/213K82/686K 60/213K82/686K 61/213K82/686K 62/213K82/686K 64/213K82/686K 67/213K82/686K 68/213K82/686K 69/213K82/686K 71/213K82/686K 72/213K82/686K 75/213K82/686K 76/213K82/686K 78/213K82/686K 79/213K84/686K 79/213K85/686K 79/213K86/686K 79/213K88/686K 79/213K89/686K 79/213K91/686K 79/213K92/686K 79/213K93/686K 79/213K96/686K 79/213K99/686K 79/213K100/686K 79/213K102/686K 79/213K103/686K 79/213K106/686K 79/213K107/686K 79/213K109/686K 79/213K110/686K 79/213K112/686K 79/213K113/686K 79/213K114/686K 79/213K117/686K 79/213K119/686K 79/213K120/686K 79/213K121/686K 79/213K124/686K 79/213K124/686K 81/213K124/686K 82/213K124/686K 85/213K124/686K 88/213K124/686K 89/213K124/686K 91/213K124/686K 92/213K124/686K 93/213K124/686K 95/213K124/686K 96/213K124/686K 98/213K124/686K 99/213K124/686K 100/213K124/686K 102/213K124/686K 103/213K124/686K 105/213K124/686K 106/213K124/686K 107/213K124/686K 109/213K124/686K 110/213K124/686K 112/213K124/686K 113/213K124/686K 114/213K124/686K 116/213K124/686K 117/213K124/686K 119/213K124/686K 120/213K124/686K 121/213K124/686K 123/213K124/686K 124/213K124/686K 126/213K126/686K 126/213K127/686K 126/213K129/686K 126/213K130/686K 126/213K131/686K 126/213K133/686K 126/213K134/686K 126/213K136/686K 126/213K137/686K 126/213K138/686K 126/213K140/686K 126/213K141/686K 126/213K144/686K 126/213K145/686K 126/213K147/686K 126/213K148/686K 126/213K151/686K 126/213K152/686K 126/213K154/686K 126/213K155/686K 126/213K157/686K 126/213K159/686K 126/213K161/686K 126/213K162/686K 126/213K164/686K 126/213K165/686K 126/213K166/686K 126/213K168/686K 126/213K169/686K 126/213K171/686K 126/213K171/686K 127/213K171/686K 129/213K171/686K 130/213K171/686K 131/213K171/686K 133/213K171/686K 134/213K171/686K 136/213K171/686K 137/213K171/686K 138/213K171/686K 140/213K171/686K 143/213K171/686K 144/213K171/686K 145/213K171/686K 147/213K171/686K 148/213K171/686K 150/213K171/686K 151/213K171/686K 152/213K171/686K 154/213K171/686K 155/213K171/686K 157/213K171/686K 158/213K171/686K 159/213K171/686K 161/213K171/686K 162/213K171/686K 164/213K171/686K 165/213K171/686K 166/213K171/686K 168/213K171/686K 169/213K171/686K 172/213K171/686K 174/213K171/686K 175/213K171/686K 176/213K171/686K 178/213K171/686K 179/213K172/686K 179/213K174/686K 179/213K175/686K 179/213K176/686K 179/213K179/686K 179/213K181/686K 179/213K182/686K 179/213K183/686K 179/213K185/686K 179/213K186/686K 179/213K188/686K 179/213K189/686K 179/213K190/686K 179/213K192/686K 179/213K193/686K 179/213K195/686K 179/213K197/686K 179/213K200/686K 179/213K202/686K 179/213K203/686K 179/213K204/686K 179/213K207/686K 179/213K209/686K 179/213K210/686K 179/213K211/686K 179/213K213/686K 179/213K214/686K 179/213K216/686K 179/213K217/686K 179/213K217/686K 181/213K217/686K 183/213K217/686K 185/213K217/686K 186/213K217/686K 188/213K217/686K 189/213K217/686K 190/213K217/686K 192/213K217/686K 193/213K217/686K 196/213K217/686K 199/213K217/686K 200/213K217/686K 202/213K217/686K 203/213K217/686K 206/213K217/686K 207/213K217/686K 210/213K217/686K 213/213K213K downloaded  (junit-dep-4.8.2.jar)
-219/686K220/686K223/686K224/686K226/686K228/686K230/686K233/686K234/686K237/686K238/686K240/686K241/686K242/686K244/686K247/686K249/686K252/686K254/686K255/686K256/686K258/686K259/686K261/686K262/686K264/686K265/686K266/686K268/686K269/686K271/686K272/686K273/686K275/686K276/686K278/686K279/686K280/686K282/686K283/686K285/686K286/686K289/686K290/686K292/686K293/686K294/686K296/686K297/686K299/686K300/686K301/686K303/686K304/686K306/686K307/686K309/686K311/686K313/686K314/686K316/686K317/686K318/686K320/686K321/686K323/686K324/686K325/686K327/686K328/686K330/686K332/686K335/686K337/686K338/686K339/686K341/686K342/686K344/686K345/686K346/686K348/686K349/686K351/686K352/686K354/686K355/686K358/686K359/686K361/686K362/686K363/686K365/686K366/686K368/686K369/686K370/686K372/686K373/686K375/686K376/686K377/686K379/686K382/686K384/686K386/686K387/686K389/686K390/686K391/686K393/686K396/686K397/686K399/686K400/686K401/686K403/686K404/686K406/686K407/686K408/686K410/686K411/686K413/686K414/686K415/686K417/686K418/686K420/686K421/686K422/686K424/686K425/686K427/686K428/686K429/686K431/686K432/686K434/686K435/686K436/686K438/686K439/686K441/686K442/686K444/686K445/686K446/686K448/686K451/686K452/686K453/686K455/686K456/686K458/686K459/686K460/686K462/686K463/686K465/686K466/686K467/686K469/686K470/686K472/686K473/686K474/686K476/686K477/686K480/686K481/686K483/686K484/686K486/686K487/686K489/686K490/686K491/686K493/686K494/686K496/686K497/686K500/686K501/686K503/686K504/686K505/686K507/686K510/686K511/686K512/686K514/686K515/686K517/686K518/686K519/686K521/686K522/686K524/686K525/686K528/686K531/686K532/686K534/686K535/686K536/686K538/686K539/686K541/686K542/686K543/686K545/686K546/686K548/686K549/686K550/686K552/686K553/686K555/686K556/686K557/686K559/686K560/686K562/686K563/686K564/686K566/686K567/686K569/686K570/686K571/686K573/686K574/686K576/686K577/686K579/686K581/686K583/686K584/686K586/686K587/686K588/686K590/686K591/686K593/686K595/686K597/686K598/686K600/686K601/686K602/686K604/686K605/686K607/686K608/686K611/686K612/686K614/686K615/686K616/686K618/686K619/686K621/686K622/686K624/686K625/686K626/686K628/686K629/686K631/686K632/686K633/686K635/686K636/686K638/686K639/686K640/686K642/686K643/686K645/686K646/686K649/686K650/686K652/686K654/686K656/686K657/686K659/686K660/686K661/686K663/686K664/686K666/686K667/686K670/686K671/686K673/686K674/686K676/686K677/686K678/686K680/686K681/686K684/686K686/686K686K downloaded  (mysql-connector-java-5.1.6.jar)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.0.9/maven-plugin-api-2.0.9.pom
-1/1K1K downloaded  (maven-plugin-api-2.0.9.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven/2.0.9/maven-2.0.9.pom
-1/18K2/18K3/18K5/18K6/18K8/18K9/18K10/18K12/18K13/18K15/18K16/18K18/18K18K downloaded  (maven-2.0.9.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-parent/8/maven-parent-8.pom
-1/23K2/23K3/23K5/23K6/23K8/23K9/23K12/23K13/23K15/23K16/23K17/23K19/23K20/23K22/23K23/23K23K downloaded  (maven-parent-8.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-artifact/2.0.9/maven-artifact-2.0.9.pom
-1/1K1K downloaded  (maven-artifact-2.0.9.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/1.5.1/plexus-utils-1.5.1.pom
-1/2K2/2K2K downloaded  (plexus-utils-1.5.1.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-core/2.0.9/maven-core-2.0.9.pom
-1/7K2/7K3/7K5/7K6/7K7/7K7K downloaded  (maven-core-2.0.9.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-settings/2.0.9/maven-settings-2.0.9.pom
-1/2K2/2K2K downloaded  (maven-settings-2.0.9.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-model/2.0.9/maven-model-2.0.9.pom
-1/3K3/3K3K downloaded  (maven-model-2.0.9.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.9/maven-plugin-parameter-documenter-2.0.9.pom
-1/1K1K downloaded  (maven-plugin-parameter-documenter-2.0.9.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/wagon/wagon-webdav/1.0-beta-2/wagon-webdav-1.0-beta-2.pom
-1/1K1K downloaded  (wagon-webdav-1.0-beta-2.pom)
-Downloading: http://repo1.maven.org/maven2/slide/slide-webdavlib/2.1/slide-webdavlib-2.1.pom
-648/648b648b downloaded  (slide-webdavlib-2.1.pom)
-Downloading: http://repo1.maven.org/maven2/commons-httpclient/commons-httpclient/2.0.2/commons-httpclient-2.0.2.pom
-1/6K5/6K6/6K6K downloaded  (commons-httpclient-2.0.2.pom)
-Downloading: http://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.pom
-866/866b866b downloaded  (commons-logging-1.0.3.pom)
-Downloading: http://repo1.maven.org/maven2/jdom/jdom/1.0/jdom-1.0.pom
-1/1K1K downloaded  (jdom-1.0.pom)
-Downloading: http://repo1.maven.org/maven2/de/zeigermann/xml/xml-im-exporter/1.1/xml-im-exporter-1.1.pom
-248/248b248b downloaded  (xml-im-exporter-1.1.pom)
-Downloading: http://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.pom
-1/5K2/5K5/5K5K downloaded  (commons-logging-1.0.4.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-profile/2.0.9/maven-profile-2.0.9.pom
-1/2K2/2K2K downloaded  (maven-profile-2.0.9.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-repository-metadata/2.0.9/maven-repository-metadata-2.0.9.pom
-1/1K1K downloaded  (maven-repository-metadata-2.0.9.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.9/maven-error-diagnostics-2.0.9.pom
-1/1K1K downloaded  (maven-error-diagnostics-2.0.9.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-project/2.0.9/maven-project-2.0.9.pom
-1/2K2/2K2K downloaded  (maven-project-2.0.9.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-artifact-manager/2.0.9/maven-artifact-manager-2.0.9.pom
-1/2K2/2K2K downloaded  (maven-artifact-manager-2.0.9.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.pom
-1/1K1/1K1K downloaded  (maven-plugin-registry-2.0.9.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.9/maven-plugin-descriptor-2.0.9.pom
-1/2K2/2K2K downloaded  (maven-plugin-descriptor-2.0.9.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-monitor/2.0.9/maven-monitor-2.0.9.pom
-1/1K1/1K1K downloaded  (maven-monitor-2.0.9.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-toolchain/1.0/maven-toolchain-1.0.pom
-1/3K3/3K3K downloaded  (maven-toolchain-1.0.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-utils/0.1/maven-shared-utils-0.1.pom
-1/3K2/3K3/3K3K downloaded  (maven-shared-utils-0.1.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-components/18/maven-shared-components-18.pom
-1/4K2/4K3/4K4/4K4K downloaded  (maven-shared-components-18.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-parent/22/maven-parent-22.pom
-1/29K2/29K3/29K5/29K6/29K8/29K9/29K10/29K12/29K13/29K15/29K16/29K17/29K19/29K20/29K22/29K23/29K24/29K26/29K27/29K29/29K29K downloaded  (maven-parent-22.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/apache/11/apache-11.pom
-1/14K2/14K3/14K5/14K6/14K8/14K9/14K10/14K12/14K14/14K14K downloaded  (apache-11.pom)
-Downloading: http://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.pom
-965/965b965b downloaded  (jsr305-2.0.1.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.pom
-1/4K2/4K3/4K4/4K4K downloaded  (maven-shared-incremental-1.1.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-components/19/maven-shared-components-19.pom
-1/6K2/6K3/6K6/6K6K downloaded  (maven-shared-components-19.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.pom
-1/1K1K downloaded  (maven-plugin-api-2.2.1.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven/2.2.1/maven-2.2.1.pom
-4/21K8/21K12/21K16/21K20/21K21/21K21K downloaded  (maven-2.2.1.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-parent/11/maven-parent-11.pom
-1/31K2/31K3/31K5/31K6/31K8/31K9/31K10/31K12/31K13/31K15/31K16/31K17/31K19/31K22/31K23/31K24/31K26/31K27/31K29/31K30/31K31/31K31K downloaded  (maven-parent-11.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/apache/5/apache-5.pom
-1/4K2/4K4/4K4K downloaded  (apache-5.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-core/2.2.1/maven-core-2.2.1.pom
-1/11K2/11K3/11K5/11K6/11K8/11K9/11K11/11K11K downloaded  (maven-core-2.2.1.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom
-815/815b815b downloaded  (plexus-component-annotations-1.5.5.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom
-2/4K4/4K4K downloaded  (plexus-containers-1.5.5.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus/2.0.7/plexus-2.0.7.pom
-1/16K2/16K3/16K5/16K6/16K8/16K9/16K10/16K12/16K13/16K15/16K16/16K16K downloaded  (plexus-2.0.7.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.pom
-865/865b865b downloaded  (plexus-compiler-api-2.2.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler/2.2/plexus-compiler-2.2.pom
-1/3K2/3K3/3K3K downloaded  (plexus-compiler-2.2.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-components/1.3.1/plexus-components-1.3.1.pom
-1/2K2/2K2K downloaded  (plexus-components-1.3.1.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus/3.3.1/plexus-3.3.1.pom
-1/19K2/19K3/19K5/19K6/19K8/19K9/19K10/19K12/19K13/19K15/19K16/19K17/19K19/19K19K downloaded  (plexus-3.3.1.pom)
-Downloading: http://repo1.maven.org/maven2/org/sonatype/spice/spice-parent/17/spice-parent-17.pom
-2/6K3/6K5/6K6/6K6K downloaded  (spice-parent-17.pom)
-Downloading: http://repo1.maven.org/maven2/org/sonatype/forge/forge-parent/10/forge-parent-10.pom
-1/13K2/13K3/13K5/13K8/13K9/13K12/13K13/13K13K downloaded  (forge-parent-10.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.8/plexus-utils-3.0.8.pom
-1/3K2/3K3/3K3K downloaded  (plexus-utils-3.0.8.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus/3.2/plexus-3.2.pom
-2/18K3/18K5/18K6/18K8/18K9/18K10/18K12/18K13/18K16/18K17/18K18/18K18K downloaded  (plexus-3.2.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.pom
-690/690b690b downloaded  (plexus-compiler-manager-2.2.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.pom
-769/769b769b downloaded  (plexus-compiler-javac-2.2.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compilers/2.2/plexus-compilers-2.2.pom
-1/1K1K downloaded  (plexus-compilers-2.2.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.pom
-1/2K2/2K2K downloaded  (plexus-container-default-1.5.5.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/1.4.5/plexus-utils-1.4.5.pom
-1/2K2/2K2K downloaded  (plexus-utils-1.4.5.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.2.2/plexus-classworlds-2.2.2.pom
-1/3K2/3K3/3K3K downloaded  (plexus-classworlds-2.2.2.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus/2.0.3/plexus-2.0.3.pom
-1/15K2/15K3/15K5/15K6/15K8/15K9/15K10/15K12/15K13/15K15/15K15K downloaded  (plexus-2.0.3.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.pom
-1/2K2/2K2K downloaded  (xbean-reflect-3.4.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/xbean/xbean/3.4/xbean-3.4.pom
-1/18K2/18K3/18K5/18K6/18K8/18K9/18K10/18K12/18K13/18K15/18K16/18K18/18K18K downloaded  (xbean-3.4.pom)
-Downloading: http://repo1.maven.org/maven2/log4j/log4j/1.2.12/log4j-1.2.12.pom
-145/145b145b downloaded  (log4j-1.2.12.pom)
-Downloading: http://repo1.maven.org/maven2/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.pom
-1/5K2/5K3/5K5/5K5K downloaded  (commons-logging-api-1.1.pom)
-Downloading: http://repo1.maven.org/maven2/com/google/collections/google-collections/1.0/google-collections-1.0.pom
-2/2K2K downloaded  (google-collections-1.0.pom)
-Downloading: http://repo1.maven.org/maven2/com/google/google/1/google-1.pom
-1/1K1K downloaded  (google-1.pom)
-Downloading: http://repo1.maven.org/maven2/junit/junit/3.8.2/junit-3.8.2.pom
-747/747b747b downloaded  (junit-3.8.2.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.pom
-1/6K2/6K3/6K5/6K6/6K6K downloaded  (plexus-utils-1.5.15.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus/2.0.2/plexus-2.0.2.pom
-1/11K2/11K3/11K5/11K6/11K8/11K9/11K11/11K11K downloaded  (plexus-2.0.2.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-utils/0.1/maven-shared-utils-0.1.jar
-Downloading: http://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
-1/222K2/222K3/222K5/222K6/222K8/222K9/222K12/222K13/222K15/222K16/222K17/222K19/222K20/222K22/222K23/222K24/222K26/222K27/222K29/222K30/222K31/222K33/222K34/222K36/222K39/222K40/222K41/222K43/222K44/222K46/222K47/222K48/222K50/222K51/222K53/222K54/222K55/222K57/222K58/222K60/222K61/222K62/222K64/222K65/222K67/222K69/222K69/222K 2/31K69/222K 3/31K69/222K 5/31K69/222K 6/31K69/222K 8/31K69/222K 9/31K69/222K 10/31K69/222K 12/31K69/222K 15/31K69/222K 16/31K69/222K 17/31K69/222K 19/31K69/222K 20/31K69/222K 23/31K69/222K 26/31K69/222K 27/31K69/222K 29/31K69/222K 30/31K69/222K 30/31K 1/150K69/222K 30/31K 2/150K69/222K 30/31K 5/150K69/222K 30/31K 6/150K69/222K 30/31K 8/150K69/222K 30/31K 9/150K69/222K 30/31K 10/150K69/222K 30/31K 12/150K69/222K 30/31K 13/150K69/222K 30/31K 15/150K69/222K 30/31K 16/150K69/222K 30/31K 17/150K69/222K 30/31K 19/150K69/222K 30/31K 20/150K69/222K 30/31K 22/150K69/222K 30/31K 23/150K69/222K 30/31K 24/150K69/222K 30/31K 27/150K69/222K 30/31K 29/150K69/222K 30/31K 30/150K69/222K 30/31K 31/150K69/222K 30/31K 33/150K69/222K 30/31K 34/150K69/222K 30/31K 36/150K69/222K 30/31K 39/150K69/222K 30/31K 40/150K69/222K 30/31K 41/150K69/222K 30/31K 43/150K69/222K 30/31K 44/150K69/222K 30/31K 46/150K69/222K 30/31K 47/150K69/222K 30/31K 48/150K69/222K 30/31K 50/150K69/222K 30/31K 51/150K69/222K 30/31K 53/150K69/222K 30/31K 54/150K69/222K 30/31K 55/150K69/222K 30/31K 57/150K71/222K 30/31K 57/150K72/222K 30/31K 57/150K74/222K 30/31K 57/150K75/222K 30/31K 57/150K76/222K 30/31K 57/150K78/222K 30/31K 57/150K79/222K 30/31K 57/150K81/222K 30/31K 57/150K82/222K 30/31K 57/150K84/222K 30/31K 57/150K85/222K 30/31K 57/150K86/222K 30/31K 57/150K88/222K 30/31K 57/150K91/222K 30/31K 57/150K92/222K 30/31K 57/150K95/222K 30/31K 57/150K98/222K 30/31K 57/150K100/222K 30/31K 57/150K103/222K 30/31K 57/150K105/222K 30/31K 57/150K106/222K 30/31K 57/150K107/222K 30/31K 57/150K109/222K 30/31K 57/150K110/222K 30/31K 57/150K112/222K 30/31K 57/150K113/222K 30/31K 57/150K114/222K 30/31K 57/150K116/222K 30/31K 57/150K117/222K 30/31K 57/150K119/222K 30/31K 57/150K120/222K 30/31K 57/150K121/222K 30/31K 57/150K123/222K 30/31K 57/150K124/222K 30/31K 57/150K126/222K 30/31K 57/150K127/222K 30/31K 57/150K129/222K 30/31K 57/150K130/222K 30/31K 57/150K131/222K 30/31K 57/150K133/222K 30/31K 57/150K134/222K 30/31K 57/150K136/222K 30/31K 57/150K137/222K 30/31K 57/150K138/222K 30/31K 57/150K140/222K 30/31K 57/150K141/222K 30/31K 57/150K143/222K 30/31K 57/150K144/222K 30/31K 57/150K145/222K 30/31K 57/150K147/222K 30/31K 57/150K148/222K 30/31K 57/150K151/222K 30/31K 57/150K154/222K 30/31K 57/150K154/222K 31/31K 57/150K155/222K 31/31K 57/150K31K downloaded  (jsr305-2.0.1.jar)
-155/222K 58/150K155/222K 60/150K155/222K 61/150K155/222K 62/150K155/222K 64/150K155/222K 65/150K155/222K 67/150K155/222K 68/150K155/222K 69/150K155/222K 72/150K155/222K 74/150K155/222K 75/150K155/222K 76/150K155/222K 78/150K155/222K 79/150K155/222K 81/150K155/222K 82/150K155/222K 84/150K155/222K 85/150K155/222K 86/150K155/222K 88/150K155/222K 89/150K155/222K 91/150K155/222K 92/150K155/222K 93/150K155/222K 95/150K155/222K 96/150K155/222K 98/150K155/222K 100/150K155/222K 102/150K155/222K 103/150K155/222K 105/150K155/222K 107/150K155/222K 109/150K155/222K 110/150K155/222K 112/150K157/222K 112/150K157/222K 113/150K158/222K 113/150K158/222K 114/150K158/222K 116/150K158/222K 117/150K158/222K 119/150K158/222K 120/150K158/222K 121/150K158/222K 123/150K158/222K 124/150K158/222K 126/150K158/222K 127/150K158/222K 130/150K158/222K 133/150K159/222K 133/150K161/222K 133/150K162/222K 133/150K164/222K 133/150K165/222K 133/150K166/222K 133/150K169/222K 133/150K171/222K 133/150K172/222K 133/150K174/222K 133/150K175/222K 133/150K176/222K 133/150K178/222K 133/150K179/222K 133/150K181/222K 133/150K183/222K 133/150K185/222K 133/150K186/222K 133/150K188/222K 133/150K189/222K 133/150K190/222K 133/150K192/222K 133/150K193/222K 133/150K195/222K 133/150K196/222K 133/150K197/222K 133/150K199/222K 133/150K200/222K 133/150K202/222K 133/150K203/222K 133/150K204/222K 133/150K206/222K 133/150K207/222K 133/150K209/222K 133/150K210/222K 133/150K211/222K 133/150K213/222K 133/150K214/222K 133/150K216/222K 133/150K217/222K 133/150K219/222K 133/150K220/222K 133/150K221/222K 133/150K222/222K 133/150K222K downloaded  (plexus-utils-1.5.15.jar)
-134/150K136/150K138/150K140/150K141/150K144/150K145/150K147/150K150/150K150K downloaded  (maven-shared-utils-0.1.jar)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar
-1/4K2/4K4/4K4K downloaded  (plexus-component-annotations-1.5.5.jar)
-1/13K2/13K3/13K5/13K6/13K8/13K9/13K10/13K12/13K13/13K13K downloaded  (maven-shared-incremental-1.1.jar)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.jar
-1/24K2/24K3/24K5/24K8/24K9/24K10/24K12/24K13/24K15/24K16/24K17/24K19/24K20/24K22/24K24/24K24K downloaded  (plexus-compiler-api-2.2.jar)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.jar
-1/4K2/4K3/4K4/4K4K downloaded  (plexus-compiler-manager-2.2.jar)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.jar
-2/18K3/18K5/18K6/18K8/18K9/18K10/18K12/18K13/18K15/18K16/18K18/18K18K downloaded  (plexus-compiler-javac-2.2.jar)
-[INFO] [compiler:compile {execution: default-compile}]
-[INFO] Nothing to compile - all classes are up to date
-[INFO] [resources:testResources {execution: default-testResources}]
-[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory /home/gerd/git/training/Training/src/test/resources
-[INFO] [compiler:testCompile {execution: default-testCompile}]
-[INFO] Nothing to compile - all classes are up to date
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.10/surefire-booter-2.10.pom
-1/2K2/2K2K downloaded  (surefire-booter-2.10.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.10/surefire-api-2.10.pom
-1/2K2/2K2K downloaded  (surefire-api-2.10.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.10/maven-surefire-common-2.10.pom
-1/3K2/3K3/3K3K downloaded  (maven-surefire-common-2.10.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/2.1/plexus-utils-2.1.pom
-1/3K2/3K3/3K3/3K3K downloaded  (plexus-utils-2.1.pom)
-Downloading: http://repo1.maven.org/maven2/org/sonatype/spice/spice-parent/16/spice-parent-16.pom
-1/8K2/8K3/8K5/8K6/8K8/8K8K downloaded  (spice-parent-16.pom)
-Downloading: http://repo1.maven.org/maven2/org/sonatype/forge/forge-parent/5/forge-parent-5.pom
-1/8K2/8K3/8K5/8K6/8K8/8K8K downloaded  (forge-parent-5.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.0.9/maven-reporting-api-2.0.9.pom
-1/1K1K downloaded  (maven-reporting-api-2.0.9.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/reporting/maven-reporting/2.0.9/maven-reporting-2.0.9.pom
-1/1K1K downloaded  (maven-reporting-2.0.9.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-toolchain/2.0.9/maven-toolchain-2.0.9.pom
-1/3K2/3K3/3K3K downloaded  (maven-toolchain-2.0.9.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/1.3/maven-common-artifact-filters-1.3.pom
-1/3K2/3K3/3K3K downloaded  (maven-common-artifact-filters-1.3.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-components/12/maven-shared-components-12.pom
-1/9K2/9K5/9K6/9K9/9K9K downloaded  (maven-shared-components-12.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-parent/13/maven-parent-13.pom
-1/22K2/22K3/22K5/22K6/22K8/22K9/22K10/22K12/22K13/22K16/22K17/22K19/22K20/22K22/22K22K downloaded  (maven-parent-13.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/apache/6/apache-6.pom
-1/12K2/12K3/12K5/12K6/12K8/12K9/12K10/12K12/12K12K downloaded  (apache-6.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-9/plexus-container-default-1.0-alpha-9.pom
-1/1K1K downloaded  (plexus-container-default-1.0-alpha-9.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/2.1/plexus-utils-2.1.jar
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/1.3/maven-common-artifact-filters-1.3.jar
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-booter/2.10/surefire-booter-2.10.jar
-1/219K2/219K3/219K5/219K6/219K8/219K9/219K10/219K12/219K13/219K15/219K16/219K17/219K19/219K20/219K22/219K23/219K24/219K26/219K27/219K29/219K30/219K31/219K33/219K34/219K36/219K37/219K40/219K43/219K44/219K46/219K47/219K48/219K50/219K51/219K53/219K54/219K55/219K57/219K58/219K60/219K61/219K62/219K64/219K65/219K67/219K68/219K71/219K72/219K74/219K75/219K76/219K78/219K79/219K81/219K82/219K84/219K86/219K88/219K89/219K91/219K92/219K93/219K95/219K98/219K98/219K 1/30K98/219K 3/30K98/219K 5/30K98/219K 6/30K98/219K 8/30K98/219K 10/30K98/219K 12/30K98/219K 13/30K98/219K 15/30K98/219K 16/30K98/219K 19/30K98/219K 22/30K98/219K 23/30K98/219K 26/30K98/219K 29/30K98/219K 30/30K30K downloaded  (maven-common-artifact-filters-1.3.jar)
-98/219K 2/33K98/219K 5/33K98/219K 6/33K98/219K 8/33K98/219K 9/33K98/219K 10/33K98/219K 12/33K98/219K 15/33K98/219K 16/33K98/219K 17/33K98/219K 19/33K98/219K 20/33K98/219K 22/33K98/219K 23/33K98/219K 24/33K98/219K 26/33K98/219K 27/33K98/219K 29/33K98/219K 30/33K98/219K 31/33K98/219K 33/33K33K downloaded  (surefire-booter-2.10.jar)
-99/219K100/219K102/219K103/219K105/219K106/219K107/219K109/219K110/219K112/219K113/219K114/219K116/219K117/219K119/219K120/219K121/219K124/219K126/219K127/219K129/219K130/219K131/219K133/219K134/219K136/219K137/219K140/219K141/219K143/219K144/219K145/219K147/219K148/219K150/219K151/219K152/219K154/219K155/219K157/219K158/219K159/219K161/219K162/219K164/219K165/219K168/219K169/219K171/219K172/219K174/219K175/219K176/219K178/219K179/219K181/219K183/219K185/219K186/219K188/219K189/219K190/219K192/219K193/219K195/219K196/219K197/219K199/219K200/219K202/219K203/219K204/219K206/219K209/219K211/219K213/219K214/219K216/219K217/219K219/219K219K downloaded  (plexus-utils-2.1.jar)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-api/2.10/surefire-api-2.10.jar
-1/157K2/157K3/157K5/157K6/157K8/157K9/157K10/157K12/157K13/157K15/157K16/157K17/157K19/157K20/157K22/157K23/157K24/157K26/157K27/157K29/157K30/157K31/157K34/157K36/157K37/157K39/157K40/157K41/157K43/157K44/157K47/157K48/157K50/157K51/157K53/157K54/157K55/157K57/157K58/157K60/157K62/157K64/157K65/157K67/157K68/157K69/157K71/157K72/157K74/157K75/157K76/157K78/157K79/157K81/157K82/157K84/157K85/157K86/157K88/157K89/157K92/157K93/157K95/157K96/157K98/157K99/157K100/157K102/157K103/157K105/157K106/157K107/157K109/157K110/157K112/157K113/157K114/157K116/157K117/157K119/157K120/157K121/157K123/157K124/157K126/157K127/157K129/157K130/157K131/157K133/157K134/157K137/157K140/157K141/157K143/157K144/157K145/157K147/157K150/157K151/157K152/157K154/157K155/157K157/157K157K downloaded  (surefire-api-2.10.jar)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.10/maven-surefire-common-2.10.jar
-1/59K2/59K3/59K5/59K8/59K9/59K10/59K12/59K13/59K15/59K16/59K17/59K19/59K20/59K22/59K23/59K26/59K27/59K29/59K30/59K33/59K36/59K37/59K39/59K40/59K41/59K43/59K44/59K46/59K47/59K48/59K50/59K51/59K53/59K54/59K55/59K57/59K58/59K59/59K59K downloaded  (maven-surefire-common-2.10.jar)
-[INFO] [surefire:test {execution: default-test}]
-[INFO] Surefire report directory: /home/gerd/git/training/Training/target/surefire-reports
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-junit4/2.10/surefire-junit4-2.10.pom
-2/2K2K downloaded  (surefire-junit4-2.10.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-providers/2.10/surefire-providers-2.10.pom
-1/2K2/2K2K downloaded  (surefire-providers-2.10.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/surefire/surefire-junit4/2.10/surefire-junit4-2.10.jar
-1/32K2/32K3/32K5/32K6/32K8/32K9/32K10/32K12/32K13/32K15/32K16/32K17/32K19/32K20/32K22/32K23/32K24/32K26/32K27/32K29/32K30/32K32/32K32K downloaded  (surefire-junit4-2.10.jar)
-
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running de.training.DummyTest
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 sec
-
-Results :
-
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
-
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-archiver/2.4.1/maven-archiver-2.4.1.pom
-1/3K2/3K3/3K3K downloaded  (maven-archiver-2.4.1.pom)
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-components/15/maven-shared-components-15.pom
-1/9K2/9K3/9K5/9K6/9K8/9K9/9K9K downloaded  (maven-shared-components-15.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/1.0/plexus-archiver-1.0.pom
-1/1K1K downloaded  (plexus-archiver-1.0.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-components/1.1.17/plexus-components-1.1.17.pom
-1/5K2/5K3/5K5/5K5K downloaded  (plexus-components-1.1.17.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus/2.0.5/plexus-2.0.5.pom
-1/16K2/16K3/16K5/16K6/16K8/16K9/16K10/16K12/16K13/16K15/16K16/16K16K downloaded  (plexus-2.0.5.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.pom
-1/3K2/3K3/3K3K downloaded  (plexus-utils-2.0.5.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus/2.0.6/plexus-2.0.6.pom
-1/16K2/16K3/16K5/16K6/16K8/16K9/16K10/16K12/16K15/16K16/16K16K downloaded  (plexus-2.0.6.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/1.0/plexus-io-1.0.pom
-1/1K1K downloaded  (plexus-io-1.0.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.pom
-890/890b890b downloaded  (plexus-interpolation-1.13.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-components/1.1.15/plexus-components-1.1.15.pom
-1/2K2/2K2K downloaded  (plexus-components-1.1.15.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/1.2/plexus-archiver-1.2.pom
-1/1K1/1K1K downloaded  (plexus-archiver-1.2.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-components/1.1.18/plexus-components-1.1.18.pom
-1/5K2/5K3/5K5/5K5K downloaded  (plexus-components-1.1.18.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/1.0.1/plexus-io-1.0.1.pom
-1/1K1K downloaded  (plexus-io-1.0.1.pom)
-Downloading: http://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.pom
-2/11K3/11K5/11K6/11K8/11K9/11K11/11K11K downloaded  (xstream-1.3.1.pom)
-Downloading: http://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream-parent/1.3.1/xstream-parent-1.3.1.pom
-1/13K2/13K3/13K5/13K6/13K8/13K9/13K10/13K12/13K13/13K13K downloaded  (xstream-parent-1.3.1.pom)
-Downloading: http://repo1.maven.org/maven2/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.pom
-1/1K1K downloaded  (xpp3_min-1.1.4c.pom)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.jar
-Downloading: http://repo1.maven.org/maven2/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar
-Downloading: http://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar
-Downloading: http://repo1.maven.org/maven2/org/apache/maven/maven-archiver/2.4.1/maven-archiver-2.4.1.jar
-1/217K2/217K3/217K5/217K6/217K8/217K9/217K10/217K12/217K13/217K15/217K16/217K17/217K19/217K20/217K22/217K23/217K24/217K26/217K29/217K30/217K31/217K33/217K34/217K36/217K37/217K39/217K40/217K41/217K44/217K46/217K47/217K48/217K50/217K51/217K53/217K54/217K55/217K57/217K58/217K60/217K61/217K62/217K64/217K65/217K68/217K69/217K72/217K74/217K75/217K76/217K78/217K79/217K81/217K82/217K84/217K85/217K86/217K88/217K89/217K91/217K92/217K93/217K95/217K96/217K98/217K98/217K 1/24K98/217K 2/24K98/217K 3/24K98/217K 5/24K98/217K 6/24K98/217K 8/24K98/217K 9/24K98/217K 10/24K98/217K 12/24K98/217K 13/24K98/217K 15/24K98/217K 16/24K98/217K 17/24K98/217K 19/24K98/217K 20/24K98/217K 22/24K98/217K 23/24K98/217K 24/24K24K downloaded  (xpp3_min-1.1.4c.jar)
-98/217K 1/421K98/217K 2/421K98/217K 5/421K98/217K 6/421K98/217K 8/421K98/217K 9/421K98/217K 10/421K98/217K 12/421K98/217K 13/421K98/217K 15/421K98/217K 16/421K98/217K 17/421K98/217K 19/421K98/217K 20/421K98/217K 23/421K98/217K 24/421K98/217K 26/421K98/217K 29/421K98/217K 30/421K98/217K 31/421K98/217K 33/421K98/217K 34/421K98/217K 36/421K98/217K 37/421K98/217K 39/421K98/217K 40/421K98/217K 41/421K98/217K 43/421K98/217K 44/421K98/217K 46/421K98/217K 47/421K98/217K 48/421K98/217K 50/421K98/217K 51/421K98/217K 53/421K98/217K 54/421K98/217K 55/421K99/217K 55/421K100/217K 55/421K102/217K 55/421K103/217K 55/421K105/217K 55/421K106/217K 55/421K107/217K 55/421K109/217K 55/421K110/217K 55/421K112/217K 55/421K113/217K 55/421K114/217K 55/421K116/217K 55/421K117/217K 55/421K119/217K 55/421K120/217K 55/421K121/217K 55/421K123/217K 55/421K124/217K 55/421K126/217K 55/421K127/217K 55/421K129/217K 55/421K130/217K 55/421K131/217K 55/421K133/217K 55/421K134/217K 55/421K136/217K 55/421K137/217K 55/421K138/217K 55/421K140/217K 55/421K141/217K 55/421K143/217K 55/421K144/217K 55/421K145/217K 55/421K148/217K 55/421K150/217K 55/421K151/217K 55/421K152/217K 55/421K154/217K 55/421K155/217K 55/421K157/217K 55/421K158/217K 55/421K159/217K 55/421K161/217K 55/421K162/217K 55/421K164/217K 55/421K165/217K 55/421K166/217K 55/421K168/217K 55/421K169/217K 55/421K171/217K 55/421K172/217K 55/421K174/217K 55/421K175/217K 55/421K176/217K 55/421K178/217K 55/421K179/217K 55/421K181/217K 55/421K182/217K 55/421K183/217K 55/421K185/217K 55/421K186/217K 55/421K188/217K 55/421K189/217K 55/421K190/217K 55/421K192/217K 55/421K195/217K 55/421K196/217K 55/421K197/217K 55/421K199/217K 55/421K200/217K 55/421K202/217K 55/421K203/217K 55/421K204/217K 55/421K206/217K 55/421K207/217K 55/421K209/217K 55/421K210/217K 55/421K211/217K 55/421K213/217K 55/421K214/217K 55/421K216/217K 55/421K217/217K 55/421K217K downloaded  (plexus-utils-2.0.5.jar)
-57/421K60/421K64/421K65/421KDownloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/1.2/plexus-archiver-1.2.jar
-67/421K68/421K69/421K71/421K72/421K74/421K75/421K78/421K79/421K82/421K84/421K85/421K86/421K89/421K91/421K93/421K95/421K98/421K99/421K100/421K102/421K103/421K105/421K107/421K109/421K110/421K112/421K113/421K114/421K116/421K117/421K119/421K120/421K121/421K125/421K129/421K133/421K137/421K141/421K145/421K149/421K153/421K157/421K161/421K165/421K169/421K173/421K177/421K181/421K185/421K189/421K193/421K197/421K200/421K202/421K203/421K204/421K206/421K207/421K209/421K210/421K211/421K213/421K214/421K216/421K217/421K219/421K220/421K221/421K224/421K226/421K227/421K228/421K230/421K231/421K233/421K234/421K237/421K238/421K240/421K242/421K244/421K245/421K247/421K248/421K249/421K252/421K254/421K255/421K256/421K258/421K259/421K261/421K262/421K262/421K 1/177K262/421K 3/177K262/421K 5/177K262/421K 8/177K262/421K 9/177K262/421K 10/177K262/421K 13/177K262/421K 15/177K262/421K 16/177K262/421K 19/177K262/421K 20/177K262/421K 22/177K262/421K 23/177K262/421K 24/177K262/421K 26/177K262/421K 27/177K262/421K 29/177K262/421K 30/177K262/421K 31/177K262/421K 33/177K262/421K 34/177K264/421K 34/177K265/421K 34/177K266/421K 34/177K268/421K 34/177K269/421K 34/177K271/421K 34/177K272/421K 34/177K273/421K 34/177K275/421K 34/177K276/421K 34/177K278/421K 34/177K279/421K 34/177K280/421K 34/177K282/421K 34/177K283/421K 34/177K285/421K 34/177K286/421K 34/177K287/421K 34/177K290/421K 34/177K292/421K 34/177K293/421K 34/177K294/421K 34/177K296/421K 34/177K297/421K 34/177K299/421K 34/177K300/421K 34/177K301/421K 34/177K303/421K 34/177K304/421K 34/177K306/421K 34/177K307/421K 34/177K309/421K 34/177K310/421K 34/177K311/421K 34/177K313/421K 34/177K314/421K 34/177K316/421K 34/177K318/421K 34/177K320/421K 34/177K321/421K 34/177K323/421K 34/177K324/421K 34/177K325/421K 34/177K328/421K 34/177K330/421K 34/177K331/421K 34/177K334/421K 34/177K335/421K 34/177K337/421K 34/177K338/421K 34/177K339/421K 34/177K341/421K 34/177K342/421K 34/177K344/421K 34/177K345/421K 34/177K346/421K 34/177K348/421K 34/177K349/421K 34/177K349/421K 36/177K349/421K 37/177K349/421K 39/177K349/421K 40/177K351/421K 40/177K351/421K 41/177K351/421K 43/177K352/421K 43/177K354/421K 43/177K355/421K 43/177K355/421K 44/177K355/421K 46/177K355/421K 47/177K355/421K 48/177K355/421K 50/177K356/421K 50/177K356/421K 51/177K356/421K 53/177K356/421K 54/177K358/421K 54/177K359/421K 54/177K361/421K 54/177K361/421K 55/177K361/421K 57/177K361/421K 60/177K361/421K 61/177K361/421K 62/177K361/421K 64/177K361/421K 65/177K361/421K 67/177K361/421K 68/177K361/421K 69/177K361/421K 71/177K361/421K 72/177K361/421K 74/177K361/421K 75/177K361/421K 76/177K362/421K 76/177K363/421K 76/177K365/421K 76/177K366/421K 76/177K368/421K 76/177K369/421K 76/177K370/421K 76/177K372/421K 76/177K373/421K 76/177K375/421K 76/177K376/421K 76/177K379/421K 76/177K382/421K 76/177K384/421K 76/177K387/421K 76/177K389/421K 76/177K390/421K 76/177K393/421K 76/177K394/421K 76/177K396/421K 76/177K397/421K 76/177K399/421K 76/177K401/421K 76/177K404/421K 76/177K406/421K 76/177K407/421K 76/177K408/421K 76/177K410/421K 76/177K413/421K 76/177K414/421K 76/177K415/421K 76/177K417/421K 76/177K418/421K 76/177K420/421K 76/177K421/421K 76/177K421/421K 78/177K421K downloaded  (xstream-1.3.1.jar)
-79/177K81/177K82/177K84/177K86/177K89/177K91/177K93/177K95/177K96/177K99/177K100/177K102/177K103/177K105/177K106/177K107/177K109/177K110/177K112/177K113/177K114/177K117/177K119/177K120/177K121/177K123/177K124/177K126/177K127/177K129/177K130/177K131/177K133/177K134/177K136/177K137/177K138/177K140/177K141/177K143/177K144/177K145/177K147/177K148/177K150/177K152/177K154/177K155/177K157/177K158/177K159/177K161/177K162/177K164/177K166/177K168/177K169/177K171/177K172/177K174/177K175/177K176/177K177/177K177K downloaded  (plexus-archiver-1.2.jar)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/1.0.1/plexus-io-1.0.1.jar
-1/49K2/49K3/49K5/49K6/49K8/49K9/49K12/49K13/49K15/49K16/49K17/49K19/49K20/49K22/49K23/49K24/49K27/49K30/49K31/49K33/49K34/49K36/49K37/49K40/49K41/49K43/49K44/49K46/49K47/49K48/49K49/49K49K downloaded  (plexus-io-1.0.1.jar)
-Downloading: http://repo1.maven.org/maven2/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.jar
-1/59K2/59K3/59K5/59K6/59K8/59K9/59K10/59K12/59K13/59K15/59K16/59K17/59K19/59K20/59K23/59K24/59K26/59K27/59K29/59K30/59K31/59K33/59K34/59K36/59K37/59K39/59K40/59K41/59K44/59K46/59K47/59K48/59K50/59K51/59K53/59K54/59K55/59K57/59K58/59K59/59K59K downloaded  (plexus-interpolation-1.13.jar)
-1/19K2/19K3/19K5/19K6/19K8/19K9/19K10/19K12/19K13/19K15/19K16/19K19/19K19K downloaded  (maven-archiver-2.4.1.jar)
-[INFO] [war:war {execution: default-war}]
-[INFO] Packaging webapp
-[INFO] Assembling webapp [training] in [/home/gerd/git/training/Training/target/mywebapp]
-[INFO] Processing war project
-[INFO] Copying webapp resources [/home/gerd/git/training/Training/src/main/webapp]
-[INFO] Webapp assembled in [41 msecs]
-[INFO] Building war: /home/gerd/git/training/Training/target/mywebapp.war
-[INFO] WEB-INF/web.xml already added, skipping
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESSFUL
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 17 seconds
-[INFO] Finished at: Fri Dec 13 20:34:38 CET 2013
-[INFO] Final Memory: 17M/244M
-[INFO] ------------------------------------------------------------------------

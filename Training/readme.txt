@@ -1,8 +1,11 @@
-Folgende Datei suchen : apache-maven-3.1.1\conf\settings.xml
-Folgendes ersetzen    : <localRepository>[local Path]]\repository</localRepository>
-
-
-
+Gerd:
+=================================================================
+* TODO Projekt test           entfernen
+* TODO Projekt NeuesProjekt   entfernen
+* TODO Projekt trainingServer anlegen --> das wird ein jar
+       wird ein jar und enthält die Beans
+* TODO Evtl. Projekt training in trainingWeb umbenennen
+       enthält dann JSPs/Servlets/js/htm  
 
 
 Tomcat 7.0/conf/tomcat-users.xml
@@ -17,6 +20,13 @@ Tomcat 7.0/conf/tomcat-users.xml
 
 Maven 3.1.1/conf/settings.xml
 ======================================================
+
+<settings ....>
+....
+<localRepository>[local Path]]\repository</localRepository>
+....
+</settings>
+
 <servers>
 ....
     <server>

@@ -3,9 +3,11 @@ Gerd:
 * TODO Projekt test           entfernen
 * TODO Projekt NeuesProjekt   entfernen
 * TODO Projekt trainingServer anlegen --> das wird ein jar
-       wird ein jar und enthält die Beans
+       wird ein jar und enthï¿½lt die Beans
 * TODO Evtl. Projekt training in trainingWeb umbenennen
-       enthält dann JSPs/Servlets/js/htm  
+       enthÃ¤lt dann JSPs/Servlets/js/htm  
+
+
 
 
 Tomcat 7.0/conf/tomcat-users.xml

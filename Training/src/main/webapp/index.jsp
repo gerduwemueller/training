@@ -1,3 +1,5 @@
-Beispiel für JSP Mühu ?
+<%@page contentType="text/html; charset=UTF-8" %>
+
+Beispiel fÃ¼r JSP MÃ¼hu ?
 
 <a href="ServletDemo"> Link zu einem Servlet</a>

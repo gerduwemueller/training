@@ -47,20 +47,19 @@
 						<webXml>src/main/webapp/WEB-INF/web.xml</webXml>
 					</configuration>
 				</plugin>
-			</plugins>
-<!-- 
-    <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.1</version>
         <configuration>
-          <source>1.4</source>
-          <target>1.4</target>
+          <source>1.7</source>
+          <target>1.7</target>
         </configuration>
       </plugin>
-    </plugins>
- -->
+				
+				
+			</plugins>
+ 
 
 		</pluginManagement>
 	</build>

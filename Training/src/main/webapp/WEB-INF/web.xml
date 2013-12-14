@@ -15,11 +15,25 @@
 
 	<servlet>
 		<servlet-name>ServletDemo</servlet-name>
-		<servlet-class>de.training.servlet.ServletDemo</servlet-class>
+		<servlet-class>info.javateam.servlet.ServletDemo</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
 		<servlet-name>ServletDemo</servlet-name>
 		<url-pattern>/ServletDemo</url-pattern>
 	</servlet-mapping>
+	
+    <servlet>
+        <servlet-name>Kaffee</servlet-name>
+        <servlet-class>info.javateam.kaffee.web.KaffeeSelect</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Kaffee</servlet-name>
+        <url-pattern>/KaffeeSelect.do</url-pattern>
+    </servlet-mapping>	
+	
+
+	
+	
 </web-app>

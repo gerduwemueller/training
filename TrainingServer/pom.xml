@@ -2,8 +2,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>training</artifactId>
-	<packaging>war</packaging>
+	<artifactId>trainingServer</artifactId>
+	<packaging>ear</packaging>
 	<version>0.0.1</version>
 
 	<properties>
@@ -25,6 +25,7 @@
 			<groupId>javax.servlet</groupId>
 			<artifactId>servlet-api</artifactId>
 			<version>2.5</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>jstl</groupId>
@@ -61,51 +62,13 @@
 			<artifactId>slf4j-log4j12</artifactId>
 			<version>1.7.5</version>
 		</dependency>
-		<!-- ========================================================== -->
-		<!-- Eigenes Programm -->
-		<!-- ========================================================== -->
-		<dependency>
-			<groupId>info.javateam</groupId>
-			<artifactId>trainingServer</artifactId>
-			<version>0.0.1</version>
-			<scope>provided</scope>
-		</dependency>
-
 	</dependencies>
 
 
 	<build>
-		<finalName>mywebapp</finalName>
+		<finalName>trainingServer</finalName>
 		<pluginManagement>
 			<plugins>
-				<plugin>
-					<groupId>org.apache.tomcat.maven</groupId>
-					<artifactId>tomcat7-maven-plugin</artifactId>
-
-					<version>2.2</version>
-					<configuration>
-						<url>http://localhost:8080/manager/text</url>
-						<server>mytomcat</server>
-						<path>/training</path>
-					</configuration>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-war-plugin</artifactId>
-					<configuration>
-						<webResources>
-							<resource>
-								<!-- this is relative to the pom.xml directory -->
-								<directory>repository</directory>
-								<!-- the list has a default value of ** -->
-								<includes>
-									<include>info/javateam/trainingServer/0.0.1/*.jar</include>
-								</includes>
-								<targetPath>lib</targetPath>
-							</resource>
-						</webResources>
-					</configuration>
-				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
@@ -115,7 +78,11 @@
 						<target>1.7</target>
 					</configuration>
 				</plugin>
+
+
 			</plugins>
+
+
 		</pluginManagement>
 	</build>
 	<groupId>info.javateam</groupId>

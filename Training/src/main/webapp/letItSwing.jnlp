@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://localhost:8080/training" href="letItSwing.jnlp">
+    <information>
+        <title>letItSwing</title>
+        <vendor>info.javateam</vendor>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="1.7+"/>
+        <jar href="info/javateam/trainingServer/0.0.1/trainingServer-0.0.1.jar" main="true" />
+    </resources>
+    <application-desc main-class="info.javateam.HelloWorld"/>
+</jnlp>

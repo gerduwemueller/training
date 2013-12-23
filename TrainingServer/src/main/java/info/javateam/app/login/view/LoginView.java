@@ -1,4 +1,4 @@
-package info.javateam;
+package info.javateam.app.login.view;
 
 import java.awt.Dimension;
 import java.awt.FlowLayout;
@@ -14,7 +14,7 @@ import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 
-public class LoginFrame extends JInternalFrame {
+public class LoginView extends JInternalFrame {
 
 	private static final long serialVersionUID = 1L;
 
@@ -25,24 +25,24 @@ public class LoginFrame extends JInternalFrame {
 	protected JButton buttonReset;
 	protected JButton buttonLogin;
 
-	public LoginFrame() {
-		ResourceBundle resourceBundle = ResourceBundle.getBundle("LoginFrame");
+	public LoginView() {
+		ResourceBundle resourceBundle = ResourceBundle.getBundle("LoginView");
 		
-		setTitle(resourceBundle.getString("LoginFrame.Titel"));
+		setTitle(resourceBundle.getString("Titel"));
 		setResizable(false);
 		setClosable(false);
 		setMaximizable(false);
 		setIconifiable(false);
 		setSize(new Dimension(250, 150));
 
-		labelUserName = new JLabel(resourceBundle.getString("LoginFrame.Benutzername"));
-		labelPassword = new JLabel(resourceBundle.getString("LoginFrame.Benutzerpasswort"));
+		labelUserName = new JLabel(resourceBundle.getString("Benutzername"));
+		labelPassword = new JLabel(resourceBundle.getString("Benutzerpasswort"));
 
 		textFieldUserName = new JTextField();
 		passwordField = new JPasswordField();
 		
-		buttonReset = new JButton(resourceBundle.getString("LoginFrame.ButtonReset"));
-		buttonLogin = new JButton(resourceBundle.getString("LoginFrame.ButtonLogin"));
+		buttonReset = new JButton(resourceBundle.getString("ButtonReset"));
+		buttonLogin = new JButton(resourceBundle.getString("ButtonLogin"));
 
 		JPanel panel = new JPanel(new GridBagLayout());
 		GridBagConstraints gridBagConstraints = new GridBagConstraints();

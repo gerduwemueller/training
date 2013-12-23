@@ -67,7 +67,7 @@
 		<dependency>
 			<groupId>info.javateam</groupId>
 			<artifactId>trainingServer</artifactId>
-			<version>0.0.1</version>
+			<version>0.0.1-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>
 
@@ -99,7 +99,7 @@
 								<directory>repository</directory>
 								<!-- the list has a default value of ** -->
 								<includes>
-									<include>info/javateam/trainingServer/0.0.1/*.jar</include>
+									<include>info/javateam/trainingServer/0.0.1-SNAPSHOT/*.jar</include>
 								</includes>
 								<targetPath>lib</targetPath>
 							</resource>

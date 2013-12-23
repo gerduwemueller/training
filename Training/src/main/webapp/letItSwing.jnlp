@@ -7,7 +7,7 @@
     <update check="always"/>
     <resources>
         <j2se version="1.7+"/>
-        <jar href="info/javateam/trainingServer/0.0.1/trainingServer-0.0.1.jar" main="true" />
+        <jar href="lib/info/javateam/trainingServer/0.0.1-SNAPSHOT/trainingServer-0.0.1-SNAPSHOT.jar" main="true" />
     </resources>
     <application-desc main-class="info.javateam.HelloWorld"/>
 </jnlp>

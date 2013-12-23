@@ -1,0 +1,1 @@
+keytool -genkey -alias applet -keyalg RSA -keystore src/main/keystore/signing-jar.keystore -storepass applet -keypass applet -dname "CN=domain"

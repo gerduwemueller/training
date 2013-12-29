@@ -5,9 +5,12 @@
         <vendor>info.javateam</vendor>
     </information>
     <update check="always"/>
+    <security><all-permissions/></security>
     <resources>
         <j2se version="1.7+"/>
-        <jar href="lib/info/javateam/trainingServer/0.0.1-SNAPSHOT/trainingServer-0.0.1-SNAPSHOT.jar" main="true" />
+        <jar href="lib/info/javateam/trainingClient/0.0.1-SNAPSHOT/trainingClient-0.0.1-SNAPSHOT.jar" main="true" />
+		<jar href="lib/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar"/>
+		<jar href="lib/jaxen/jaxen/1.1.4/jaxen-1.1.4.jar"/>
     </resources>
-    <application-desc main-class="info.javateam.HelloWorld"/>
+    <application-desc main-class="info.javateam.app.HelloWorld"/>
 </jnlp>

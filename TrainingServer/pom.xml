@@ -15,11 +15,13 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.6</version>
 		</dependency>
+		<!-- 
 		<dependency>
-			<groupId>junit</groupId>     <!-- NOT org.junit here -->
+			<groupId>junit</groupId>     
 			<artifactId>junit-dep</artifactId>
 			<version>4.8.2</version>
 		</dependency>
+		-->
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>servlet-api</artifactId>
@@ -89,28 +91,6 @@
 				        </execution>
 				    </executions>
 				    <configuration>
-				          <archive>
-				            <index>true</index>
-				            <manifestFile>src/main/resources/META-INF/MANIFEST.MF</manifestFile>
-				            <!-- 
-				            <manifest>
-								<attribute name="Permissions" value="all-permissions" />
-								<attribute name="Codebase" value="*" />
-								<attribute name="Application-Name" value="jnlpApplicationName" />
-		      
-				              
-				              <addClasspath>true</addClasspath>
-				            </manifest>
-				             -->
-				            <manifestEntries>
-				              <mode>development</mode>
-				              <url>${project.url}</url>
-				              <key>value</key>
-				            </manifestEntries>
-				          </archive>				    
-				    
-				    
-				    
 				        <keystore>src/main/keystore/signing-jar.keystore</keystore>
 				        <alias>applet</alias>
 				        <storepass>applet</storepass>

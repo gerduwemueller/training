@@ -27,7 +27,6 @@ public class EventFactory {
 	 * @param arguments
 	 */
 	public static void fireEvent(String eventName, Map<String, Object> arguments) {
-		System.out.println("Event gefeuert: " + eventName);
 		for (EventListener eventListener : list) {
 			eventListener.fireEvent(eventName, arguments);
 		}

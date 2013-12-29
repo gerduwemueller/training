@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Node>
-	<Node text="Node_Verwaltung">
-		<Node text="Node_Benutzer"></Node>
-		<Node text="Node_Gruppen"></Node>
-		<Node text="Node_Rechte"></Node>
-	</Node>
-</Node>	

@@ -58,9 +58,6 @@ public class HelloWorld {
 			public void actionPerformed(ActionEvent e) {
 				MainController mainController = new MainController();
 				MainView mainView = mainController.getView();
-
-				Dimension desktopSize = frame.getSize();
-				Dimension jInternalFrameSize = mainView.getSize();
 				mainView.setLocation(0, 0);
 				mainView.setSize(desktopPane.getSize());
 				desktopPane.add(mainView, JDesktopPane.CENTER_ALIGNMENT);

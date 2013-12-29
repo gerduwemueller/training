@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DemoTree>
+	<Node text="Node_Verwaltung">
+		<Node text="Node_Benutzer" icon="/user/user.png"></Node>
+		<Node text="Node_Gruppen"  icon="/group/group.png"></Node>
+		<Node text="Node_Rechte"></Node>
+	</Node>
+	<Node text="Node_Konten2">
+		<Node text="Node_Konten2_1"></Node>
+		<Node text="Node_Konten2_2"></Node>
+		<Node text="Node_Konten2_3"></Node>
+	</Node>
+</DemoTree>	

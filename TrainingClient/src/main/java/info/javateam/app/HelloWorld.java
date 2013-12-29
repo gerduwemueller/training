@@ -2,6 +2,8 @@ package info.javateam.app;
 
 import info.javateam.app.login.controller.LoginController;
 import info.javateam.app.login.view.LoginView;
+import info.javateam.app.main.controller.MainController;
+import info.javateam.app.main.view.MainView;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
@@ -36,19 +38,37 @@ public class HelloWorld {
 		} catch (Exception e) {
 		}
 
-		JFrame frame = new JFrame("Training");
+		final JFrame frame = new JFrame("Training");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setSize(1024, 768);
 		frame.setLayout(new BorderLayout());
 		
 		JPanel panelX = new JPanel(new BorderLayout());
-		JDesktopPane desktopPane = new JDesktopPane();
+		final JDesktopPane desktopPane = new JDesktopPane();
 		panelX.add(desktopPane, BorderLayout.CENTER);
 		
 		
 		JMenuBar menuBar = new JMenuBar();
 		JMenu menu = new JMenu("Programm");
 		menu.setMnemonic('P');
+		JMenuItem main = new JMenuItem("Main");
+		main.setMnemonic('M');
+		main.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				MainController mainController = new MainController();
+				MainView mainView = mainController.getView();
+
+				Dimension desktopSize = frame.getSize();
+				Dimension jInternalFrameSize = mainView.getSize();
+				mainView.setLocation(0, 0);
+				mainView.setSize(desktopPane.getSize());
+				desktopPane.add(mainView, JDesktopPane.CENTER_ALIGNMENT);
+				
+				
+			}
+		});
+		menu.add(main);
 		JMenuItem item = new JMenuItem("Beenden");
 		item.setMnemonic('B');
 		item.setAccelerator(KeyStroke.getKeyStroke('Q', KeyEvent.ALT_MASK));

@@ -13,3 +13,4 @@ info\javateam\app\demo\tree\controller\DemoTreeController.class
 info\javateam\app\demo\table\view\DemoTableView.class
 info\javateam\app\HelloWorld.class
 info\javateam\app\demo\tree\model\DemoTreeModel.class
+info\javateam\app\demo\tree\view\renderer\LabelTreeCellRenderer.class

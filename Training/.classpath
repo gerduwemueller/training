@@ -7,5 +7,6 @@
 	<classpathentry kind="lib" path="repository/junit/junit-dep/4.8.2/junit-dep-4.8.2.jar"/>
 	<classpathentry kind="lib" path="repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar"/>
 	<classpathentry kind="lib" path="repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"/>
+	<classpathentry kind="lib" path="repository/junit/junit/4.10/junit-4.10.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

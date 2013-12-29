@@ -17,7 +17,7 @@
 			<version>5.1.6</version>
 		</dependency>
 		<dependency>
-			<groupId>junit</groupId>     <!-- NOT org.junit here -->
+			<groupId>junit</groupId>     
 			<artifactId>junit-dep</artifactId>
 			<version>4.8.2</version>
 		</dependency>
@@ -50,17 +50,21 @@
 			<artifactId>spring-orm</artifactId>
 			<version>3.2.6.RELEASE</version>
 		</dependency>
+		
 		<dependency>
 			<groupId>javassist</groupId>
 			<artifactId>javassist</artifactId>
-			<version>3.12.1.GA</version>
+			<version>3.3</version>
 		</dependency>
+		
 		<!-- TEST -->
+		<!-- 
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
 			<version>1.7.5</version>
 		</dependency>
+		 -->
 		<!-- ========================================================== -->
 		<!-- Eigenes Programm -->
 		<!-- ========================================================== -->
@@ -70,7 +74,6 @@
 			<version>0.0.1-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>
-
 	</dependencies>
 
 
@@ -91,6 +94,35 @@
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-jarsigner-plugin</artifactId>
+					<version>1.2</version>
+					<executions>
+						<execution>
+							<id>sign</id>
+							<phase>install</phase>
+							<goals>
+								<goal>sign</goal>
+							</goals>
+						</execution>
+					</executions>
+					<configuration>
+						<archiveDirectory>${project.basedir}</archiveDirectory>
+						<excludes>
+							<!-- <exclude>**/S*.jar</exclude> -->
+						</excludes>
+						<includes>
+							<include>**/jaxen-1.1.4.jar</include>
+							<include>**/dom4j-1.6.1.jar</include>
+						</includes>
+						<keystore>${project.basedir}/src/main/keystore/signing-jar.keystore</keystore>
+						<alias>applet</alias>
+						<storepass>applet</storepass>
+						<verify>true</verify>
+					</configuration>
+				</plugin>
+
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-war-plugin</artifactId>
 					<configuration>
 						<webResources>
@@ -99,7 +131,9 @@
 								<directory>repository</directory>
 								<!-- the list has a default value of ** -->
 								<includes>
-									<include>info/javateam/trainingServer/0.0.1-SNAPSHOT/*.jar</include>
+									<include>info/javateam/trainingClient/0.0.1-SNAPSHOT/*.jar</include>
+									<include>dom4j/dom4j/1.6.1/dom4j-1.6.1.jar</include>
+									<include>jaxen/jaxen/1.1.4/jaxen-1.1.4.jar</include>
 								</includes>
 								<targetPath>lib</targetPath>
 							</resource>
@@ -115,6 +149,38 @@
 						<target>1.7</target>
 					</configuration>
 				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-jar-plugin</artifactId>
+					<executions>
+						<execution>
+							<goals>
+								<goal>sign</goal>
+							</goals>
+						</execution>
+					</executions>
+					<configuration>
+						<keystore>src/main/keystore/signing-jar.keystore</keystore>
+						<alias>applet</alias>
+						<storepass>applet</storepass>
+						<verify>true</verify>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-antrun-plugin</artifactId>
+					<version>1.5</version>
+					<configuration>
+						<target> 
+							<signjar alias="applet" storepass="applet"> <!--  keystore="" -->
+							            <fileset dir="y:\_ENTWICKLUNG\_JAVA_GERD\tomcat-7.0.47\webapps\training\lib">
+							                <include name="**/*.jar" />
+							            </fileset>
+							</signjar>							
+						</target>
+					</configuration>
+				</plugin>
+
 			</plugins>
 		</pluginManagement>
 	</build>

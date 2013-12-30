@@ -6,7 +6,9 @@
 		<Node text="Node_Rechte"                           action="module_rights"></Node>
 	</Node>
 	<Node text="Node_Konten2">
-		<Node text="Node_Konten2_1"></Node>
+		<Node text="Node_Konten2_1">
+			<Node text="Unterknoten"></Node>
+		</Node>
 		<Node text="Node_Konten2_2"></Node>
 		<Node text="Node_Konten2_3"></Node>
 	</Node>

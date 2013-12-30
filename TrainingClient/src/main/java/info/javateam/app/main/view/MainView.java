@@ -23,10 +23,10 @@ public class MainView extends JInternalFrame implements EventListener {
 		ResourceBundle resourceBundle = ResourceBundle.getBundle("MainView");
 
 		setTitle(resourceBundle.getString("Titel"));
-		setResizable(false);
+		setResizable(true);
 		setClosable(false);
-		setMaximizable(false);
-		setIconifiable(false);
+		setMaximizable(true);
+		setIconifiable(true);
 		
 		JSplitPane splitPaneTree = new JSplitPane();
 		add(splitPaneTree);

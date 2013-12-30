@@ -73,8 +73,8 @@ public class LoginView extends JInternalFrame {
 		gridBagConstraints.gridy = 1;
 		panel.add(passwordField, gridBagConstraints);
 
-		gridBagConstraints.gridwidth = 2;
-		gridBagConstraints.gridx = 0;
+//		gridBagConstraints.gridwidth = 2;
+		gridBagConstraints.gridx = 1;
 		gridBagConstraints.gridy = ++gridBagConstraints.gridy;
 		panel.add(new JSeparator(), gridBagConstraints);
 		final JComboBox<JLabel> comboBoxLanguage = new JComboBox<JLabel>();
@@ -87,6 +87,13 @@ public class LoginView extends JInternalFrame {
 				if("Englisch".equals(label.getText()))
 					Locale.setDefault(Locale.ENGLISH);
 				
+				ResourceBundle resourceBundle = ResourceBundle.getBundle("LoginView");
+				setTitle(resourceBundle.getString("Titel"));
+				labelUserName.setText(resourceBundle.getString("Benutzername"));
+				labelPassword.setText(resourceBundle.getString("Benutzerpasswort"));
+				buttonReset.setText(resourceBundle.getString("ButtonReset"));
+				buttonLogin.setText(resourceBundle.getString("ButtonLogin"));
+				repaint();
 			}
 		});
 		
@@ -106,7 +113,7 @@ public class LoginView extends JInternalFrame {
 		comboBoxLanguage.addItem(new JLabel("Deutsch",  new ImageIcon(LoginView.class.getResource("/flags/de.png")), JLabel.HORIZONTAL));
 		comboBoxLanguage.addItem(new JLabel("Englisch", new ImageIcon(LoginView.class.getResource("/flags/gb.png")), JLabel.HORIZONTAL));
 		comboBoxLanguage.setRenderer(new LanguageRenderer());
-		gridBagConstraints.gridx = 0;
+		gridBagConstraints.gridx = 1;
 		gridBagConstraints.gridy = ++gridBagConstraints.gridy;
 		panel.add(comboBoxLanguage, gridBagConstraints);
 		

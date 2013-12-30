@@ -15,13 +15,11 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.6</version>
 		</dependency>
-		<!-- 
 		<dependency>
 			<groupId>junit</groupId>     
 			<artifactId>junit-dep</artifactId>
 			<version>4.8.2</version>
 		</dependency>
-		-->
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>servlet-api</artifactId>
@@ -63,6 +61,12 @@
 			<artifactId>slf4j-log4j12</artifactId>
 			<version>1.7.5</version>
 		</dependency>
+		<dependency>
+			<groupId>info.javateam</groupId>
+			<artifactId>trainingBdo</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
 	</dependencies>
 
 
@@ -81,21 +85,21 @@
 				</plugin>
 
 				<plugin>
-				    <groupId>org.apache.maven.plugins</groupId>
-				    <artifactId>maven-jar-plugin</artifactId>
-				    <executions>
-				        <execution>
-				            <goals>
-				                <goal>sign</goal>
-				            </goals>
-				        </execution>
-				    </executions>
-				    <configuration>
-				        <keystore>src/main/keystore/signing-jar.keystore</keystore>
-				        <alias>applet</alias>
-				        <storepass>applet</storepass>
-				        <verify>true</verify>
-				    </configuration>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-jar-plugin</artifactId>
+					<executions>
+						<execution>
+							<goals>
+								<goal>sign</goal>
+							</goals>
+						</execution>
+					</executions>
+					<configuration>
+						<keystore>src/main/keystore/signing-jar.keystore</keystore>
+						<alias>applet</alias>
+						<storepass>applet</storepass>
+						<verify>true</verify>
+					</configuration>
 				</plugin>
 			</plugins>
 

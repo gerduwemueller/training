@@ -4,7 +4,6 @@
 	<classpathentry kind="src" path="src/test/java"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="/Repository/lib/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar"/>
-	<classpathentry kind="lib" path="/Repository/lib/junit/junit/4.10/junit-4.10.jar"/>
 	<classpathentry kind="lib" path="/Repository/lib/junit/junit-dep/4.8.2/junit-dep-4.8.2.jar"/>
 	<classpathentry kind="lib" path="/Repository/lib/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar"/>
 	<classpathentry kind="lib" path="/Repository/lib/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"/>

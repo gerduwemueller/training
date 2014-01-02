@@ -17,7 +17,6 @@
 	<classpathentry kind="lib" path="/Repository/lib/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
 	<classpathentry kind="lib" path="/Repository/lib/javassist/javassist/3.3/javassist-3.3.jar"/>
 	<classpathentry kind="lib" path="/Repository/lib/javax/transaction/jta/1.1/jta-1.1.jar"/>
-	<classpathentry kind="lib" path="/Repository/lib/junit/junit/4.10/junit-4.10.jar"/>
 	<classpathentry kind="lib" path="/Repository/lib/junit/junit-dep/4.8.2/junit-dep-4.8.2.jar"/>
 	<classpathentry kind="lib" path="/Repository/lib/log4j/log4j/1.2.12/log4j-1.2.12.jar"/>
 	<classpathentry kind="lib" path="/Repository/lib/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar"/>
@@ -31,8 +30,6 @@
 	<classpathentry kind="lib" path="/Repository/lib/org/springframework/spring-jdbc/3.2.6.RELEASE/spring-jdbc-3.2.6.RELEASE.jar"/>
 	<classpathentry kind="lib" path="/Repository/lib/org/springframework/spring-orm/3.2.6.RELEASE/spring-orm-3.2.6.RELEASE.jar"/>
 	<classpathentry kind="lib" path="/Repository/lib/org/springframework/spring-tx/3.2.6.RELEASE/spring-tx-3.2.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="/Repository/lib/org/springframework/spring-webmvc/3.2.6.RELEASE/spring-webmvc-3.2.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="/Repository/lib/org/springframework/spring-web/3.2.6.RELEASE/spring-web-3.2.6.RELEASE.jar"/>
 	<classpathentry kind="lib" path="/Repository/lib/org/springframework/ws/spring-ws-core/2.1.0.RELEASE/spring-ws-core-2.1.0.RELEASE.jar"/>
 	<classpathentry kind="lib" path="/Repository/lib/org/springframework/ws/spring-xml/2.1.0.RELEASE/spring-xml-2.1.0.RELEASE.jar"/>
 	<classpathentry kind="lib" path="/Repository/lib/org/apache/ws/xmlschema/xmlschema-core/2.0.1/xmlschema-core-2.0.1.jar"/>

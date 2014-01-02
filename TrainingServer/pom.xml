@@ -3,11 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>trainingServer</artifactId>
-	<packaging>war</packaging>	
+	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<spring.version>3.0.5.RELEASE</spring.version>
+		<jdk.version>1.7</jdk.version>
 	</properties>
 
 	<dependencies>
@@ -17,7 +19,7 @@
 			<version>5.1.6</version>
 		</dependency>
 		<dependency>
-			<groupId>junit</groupId>     
+			<groupId>junit</groupId>
 			<artifactId>junit-dep</artifactId>
 			<version>4.8.2</version>
 		</dependency>
@@ -43,13 +45,30 @@
 		<!-- Spring 3 dependencies -->
 		<dependency>
 			<groupId>org.springframework</groupId>
-			<artifactId>spring-context</artifactId>
-			<version>3.2.6.RELEASE</version>
+			<artifactId>spring-core</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${spring.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-orm</artifactId>
-			<version>3.2.6.RELEASE</version>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.ws</groupId>
+			<artifactId>spring-ws-core</artifactId>
+			<version>2.1.1.RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>javassist</groupId>
@@ -61,6 +80,22 @@
 			<artifactId>slf4j-log4j12</artifactId>
 			<version>1.7.5</version>
 		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.ws</groupId>
+			<artifactId>spring-ws-core</artifactId>
+			<version>2.1.0.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.ws.xmlschema</groupId>
+			<artifactId>xmlschema-core</artifactId>
+			<version>2.0.1</version>
+		</dependency>
 		<!-- ========================================================== -->
 		<!-- Eigenes Programm -->
 		<!-- ========================================================== -->
@@ -69,7 +104,7 @@
 			<artifactId>trainingBdo</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-		
+
 	</dependencies>
 
 	<build>
@@ -99,21 +134,32 @@
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-war-plugin</artifactId>
 					<configuration>
-						<webResources>
-							<resource>
-								<!-- this is relative to the pom.xml directory -->
-								<directory>../../Repository/lib</directory>
-								<!-- the list has a default value of ** -->
-								<includes>
-									<include>info/javateam/trainingBdo/0.0.1-SNAPSHOT/*.jar</include>
-									<include>dom4j/dom4j/1.6.1/dom4j-1.6.1.jar</include>
-									<include>jaxen/jaxen/1.1.4/jaxen-1.1.4.jar</include>
-								</includes>
-								<targetPath>lib</targetPath>
-							</resource>
-						</webResources>
+						<packagingExcludes>WEB-INF/lib/spring-asm-3.1.2.RELEASE.jar</packagingExcludes>
 					</configuration>
-				</plugin>				
+
+				</plugin>
+
+				<!-- TEST -->
+				<plugin>
+					<groupId>org.codehaus.mojo</groupId>
+					<artifactId>jaxb2-maven-plugin</artifactId>
+					<version>1.4</version>
+					<executions>
+						<execution>
+							<goals>
+								<goal>xjc</goal>
+							</goals>
+							<phase>generate-sources</phase>
+						</execution>
+					</executions>
+					<configuration>
+						<clearOutputDir>false</clearOutputDir>
+						<outputDirectory>src/main/java</outputDirectory>
+						<schemaDirectory>src/main/webapp/schemas</schemaDirectory>
+						<includeSchema>**/*.xsd</includeSchema>
+						<enableIntrospection>false</enableIntrospection>
+					</configuration>
+				</plugin>
 
 			</plugins>
 		</pluginManagement>

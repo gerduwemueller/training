@@ -13,32 +13,36 @@
 		<welcome-file>default.jsp</welcome-file>
 	</welcome-file-list>
 
-	<mime-mapping>
-		<extension>jnlp</extension>
-		<mime-type>application/x-java-jnlp-file</mime-type>
-	</mime-mapping>
 
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>  
+                 /WEB-INF/config/context.xml  
+            </param-value>
+	</context-param>
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
 	<servlet>
-		<servlet-name>ServletDemo</servlet-name>
-		<servlet-class>info.javateam.servlet.ServletDemo</servlet-class>
+		<servlet-name>webservices</servlet-name>
+		<servlet-class>org.springframework.ws.transport.http.MessageDispatcherServlet</servlet-class>
+		<init-param>
+			<param-name>transformWsdlLocations</param-name>
+			<param-value>true</param-value>
+		</init-param>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value></param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
 	</servlet>
-
 	<servlet-mapping>
-		<servlet-name>ServletDemo</servlet-name>
-		<url-pattern>/ServletDemo</url-pattern>
+		<servlet-name>webservices</servlet-name>
+		<url-pattern>*.wsdl</url-pattern>
 	</servlet-mapping>
-
-	<servlet>
-		<servlet-name>Kaffee</servlet-name>
-		<servlet-class>info.javateam.kaffee.web.KaffeeSelect</servlet-class>
-	</servlet>
-
 	<servlet-mapping>
-		<servlet-name>Kaffee</servlet-name>
-		<url-pattern>/KaffeeSelect.do</url-pattern>
+		<servlet-name>webservices</servlet-name>
+		<url-pattern>/endpoint/*</url-pattern>
 	</servlet-mapping>
-
-
-
 
 </web-app>

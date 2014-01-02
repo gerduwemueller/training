@@ -61,9 +61,12 @@
 			<artifactId>slf4j-log4j12</artifactId>
 			<version>1.7.5</version>
 		</dependency>
+<<<<<<< HEAD
 		<!-- ========================================================== -->
 		<!-- Eigenes Programm -->
 		<!-- ========================================================== -->
+=======
+>>>>>>> branch 'master' of git@github.com:gerduwemueller/training.git
 		<dependency>
 			<groupId>info.javateam</groupId>
 			<artifactId>trainingBdo</artifactId>
@@ -97,6 +100,7 @@
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
+<<<<<<< HEAD
 					<artifactId>maven-war-plugin</artifactId>
 					<configuration>
 						<webResources>
@@ -114,6 +118,23 @@
 						</webResources>
 					</configuration>
 				</plugin>				
+=======
+					<artifactId>maven-jar-plugin</artifactId>
+					<executions>
+						<execution>
+							<goals>
+								<goal>sign</goal>
+							</goals>
+						</execution>
+					</executions>
+					<configuration>
+						<keystore>src/main/keystore/signing-jar.keystore</keystore>
+						<alias>applet</alias>
+						<storepass>applet</storepass>
+						<verify>true</verify>
+					</configuration>
+				</plugin>
+>>>>>>> branch 'master' of git@github.com:gerduwemueller/training.git
 			</plugins>
 		</pluginManagement>
 	</build>

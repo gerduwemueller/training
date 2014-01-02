@@ -2,7 +2,8 @@ package info.javateam.app;
 
 import info.javateam.app.login.controller.LoginController;
 import info.javateam.app.login.view.LoginView;
-import info.javateam.app.menu.view.MainMenuBar;
+import info.javateam.app.menu.MainMenuStatic;
+import info.javateam.app.menu.MainMenuXML;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
@@ -73,8 +74,17 @@ public class HelloWorld {
 		frame.setJMenuBar(menuBar);
 		*/	
 
-		MainMenuBar menuBar = new MainMenuBar(desktopPane);
+		
+		/*
+		 * Wenn es was machen soll einfach diesen Aufruf
+		 * wieder einkommentieren
+		 */
+		//MainMenuStatic menuBar = new MainMenuStatic(desktopPane);
+		//frame.setJMenuBar(menuBar.getMenuBar());
+		
+		MainMenuXML menuBar = new MainMenuXML();
 		frame.setJMenuBar(menuBar.getMenuBar());
+		
 		
 		JPanel panel = new JPanel(new FlowLayout(FlowLayout.LEADING));
 		panel.add(new JLabel("Status: Nicht angemeldet"));

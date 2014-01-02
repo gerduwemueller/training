@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menubar>
+	<menu name="Menu_Programm" mnemonic="P">
+		<menu name="Sub_Main" mnemonic="M"></menu>
+		<menu name="Sub_Beenden" mnemonic="B"></menu>
+	</menu>
+	<menu name="Menu_Demo">
+		<menu name="Sub_Sub1"></menu>
+		<menu name="Sub_Demo_Sub2"></menu>
+		<menu name="Sub_Demo_Sub3"></menu>
+	</menu>
+</menubar>	

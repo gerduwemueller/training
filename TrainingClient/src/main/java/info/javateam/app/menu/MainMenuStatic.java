@@ -1,4 +1,4 @@
-package info.javateam.app.menu.view;
+package info.javateam.app.menu;
 
 import javax.swing.JMenuBar;
 import javax.swing.JMenu;
@@ -13,15 +13,16 @@ import java.awt.event.KeyEvent;
 import info.javateam.app.main.view.MainView;
 import info.javateam.app.main.controller.MainController;
 
-public class MainMenuBar extends JMenuBar {
+public class MainMenuStatic extends JMenuBar {
 	
 	private static final long serialVersionUID = 1L;
 	private JMenuBar menuBar = null;
 	
-	public MainMenuBar() {}
+	public MainMenuStatic() {}
 
-	public MainMenuBar(final JDesktopPane myPane) {
+	public MainMenuStatic(final JDesktopPane myPane) {
 		// TODO Auto-generated constructor stub
+				
 		
 		menuBar = new JMenuBar();
 		JMenu menu = new JMenu("Programm");

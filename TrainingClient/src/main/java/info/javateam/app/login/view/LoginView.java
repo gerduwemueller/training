@@ -1,17 +1,26 @@
 package info.javateam.app.login.view;
 
+import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Insets;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.Locale;
 import java.util.ResourceBundle;
 
+import javax.swing.DefaultListCellRenderer;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
+import javax.swing.JComboBox;
 import javax.swing.JInternalFrame;
 import javax.swing.JLabel;
+import javax.swing.JList;
 import javax.swing.JPanel;
 import javax.swing.JPasswordField;
+import javax.swing.JSeparator;
 import javax.swing.JTextField;
 
 public class LoginView extends JInternalFrame {
@@ -64,7 +73,51 @@ public class LoginView extends JInternalFrame {
 		gridBagConstraints.gridy = 1;
 		panel.add(passwordField, gridBagConstraints);
 
+//		gridBagConstraints.gridwidth = 2;
+		gridBagConstraints.gridx = 1;
+		gridBagConstraints.gridy = ++gridBagConstraints.gridy;
+		panel.add(new JSeparator(), gridBagConstraints);
+		final JComboBox<JLabel> comboBoxLanguage = new JComboBox<JLabel>();
+		comboBoxLanguage.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				JLabel label = (JLabel) comboBoxLanguage.getSelectedItem();
+				if("Deutsch".equals(label.getText()))
+					Locale.setDefault(Locale.GERMAN);
+				if("Englisch".equals(label.getText()))
+					Locale.setDefault(Locale.ENGLISH);
+				
+				ResourceBundle resourceBundle = ResourceBundle.getBundle("LoginView");
+				setTitle(resourceBundle.getString("Titel"));
+				labelUserName.setText(resourceBundle.getString("Benutzername"));
+				labelPassword.setText(resourceBundle.getString("Benutzerpasswort"));
+				buttonReset.setText(resourceBundle.getString("ButtonReset"));
+				buttonLogin.setText(resourceBundle.getString("ButtonLogin"));
+				repaint();
+			}
+		});
+		
+		class LanguageRenderer extends DefaultListCellRenderer {
+			private static final long serialVersionUID = 1L;
 
+			public Component getListCellRendererComponent(JList<?> list,
+					Object value, int index, boolean isSelected,
+					boolean cellHasFocus) {
+				
+				JLabel label = (JLabel) value;
+				this.setText(label.getText());
+				this.setIcon(label.getIcon());
+				return this;
+			}
+		}
+		comboBoxLanguage.addItem(new JLabel("Deutsch",  new ImageIcon(LoginView.class.getResource("/flags/de.png")), JLabel.HORIZONTAL));
+		comboBoxLanguage.addItem(new JLabel("Englisch", new ImageIcon(LoginView.class.getResource("/flags/gb.png")), JLabel.HORIZONTAL));
+		comboBoxLanguage.setRenderer(new LanguageRenderer());
+		gridBagConstraints.gridx = 1;
+		gridBagConstraints.gridy = ++gridBagConstraints.gridy;
+		panel.add(comboBoxLanguage, gridBagConstraints);
+		
+		
 		JPanel panelButtonBar = new JPanel(new FlowLayout(FlowLayout.TRAILING));
 		panelButtonBar.add(buttonReset);
 		panelButtonBar.add(buttonLogin);
@@ -90,7 +143,7 @@ public class LoginView extends JInternalFrame {
 		gridBagConstraintsContainer.weighty = 0;
 		panelContainer.add(panelButtonBar, gridBagConstraintsContainer);
 
-		
+
 		add(panelContainer);
 	}
 

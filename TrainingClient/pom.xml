@@ -10,7 +10,12 @@
 	</properties>
 
 	<dependencies>
- 
+		<dependency>
+			<groupId>info.javateam</groupId>
+			<artifactId>trainingBdo</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+ 		<!--  Benötigt für XMLReader -->
 		<dependency>
 			<groupId>dom4j</groupId>
 			<artifactId>dom4j</artifactId>
@@ -37,7 +42,7 @@
 						<target>1.7</target>
 					</configuration>
 				</plugin>
-<!-- 
+
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-jar-plugin</artifactId>
@@ -55,7 +60,7 @@
 						<verify>true</verify>
 					</configuration>
 				</plugin>
- -->				
+				
 			</plugins>
 
 

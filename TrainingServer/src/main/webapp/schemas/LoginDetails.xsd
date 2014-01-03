@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://webservices.javateam.info"
+	targetNamespace="http://webservices.javateam.info"
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="Login" type="Login" />
+	<xs:complexType name="Login">
+		<xs:sequence>
+			<xs:element name="Username" type="xs:string" />
+			<xs:element name="Password" type="xs:string" />
+			<xs:element name="Status" type="EnumLoginStatus" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="EnumLoginStatus">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Success" />
+			<xs:enumeration value="Failed" />
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema> 

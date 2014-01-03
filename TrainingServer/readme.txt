@@ -7,6 +7,7 @@ http://briansjavablog.blogspot.de/2013/01/spring-web-services-tutorial.html
 
 Wird generiert:
 http://localhost:8080/trainingServer/endpoint/LoginService.wsdl
+http://sourceforge.net/projects/soapui/files/latest/download
 
 Generiert Domains:
 jaxb2:xjc

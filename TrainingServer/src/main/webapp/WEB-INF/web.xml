@@ -16,9 +16,7 @@
 
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
-		<param-value>  
-                 /WEB-INF/config/context.xml  
-            </param-value>
+		<param-value>/WEB-INF/context.xml</param-value>
 	</context-param>
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
@@ -42,7 +40,7 @@
 	</servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>webservices</servlet-name>
-		<url-pattern>/endpoint/*</url-pattern>
+		<url-pattern>/endpoints/*</url-pattern>
 	</servlet-mapping>
 
 </web-app>

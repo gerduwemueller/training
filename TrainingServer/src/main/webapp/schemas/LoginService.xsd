@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-	xmlns="http://webservice.web.javateam.info/web/service/loginservice" xmlns:login="http://webservice.web.javateam.info"
-	targetNamespace="http://info/javateam/web/webservice/loginservice" elementFormDefault="qualified">
-	<xsd:import namespace="http://webservice.web.javateam.info" schemaLocation="Login.xsd" />
+	xmlns="http://info/javateam/webservices/loginservice" xmlns:login="http://webservices.javateam.info"
+	targetNamespace="http://info/javateam/webservices/loginservice"
+	elementFormDefault="qualified">
+	<xsd:import namespace="http://webservices.javateam.info"
+		schemaLocation="LoginDetails.xsd" />
 	<xsd:element name="LoginRequest">
 		<xsd:complexType>
 			<xsd:sequence>
-				<xsd:element name="Login" type="login:Login" />
+				<xsd:element name="username" type="xsd:string" />
+				<xsd:element name="password" type="xsd:string" />
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
 	<xsd:element name="LoginResponse">
 		<xsd:complexType>
 			<xsd:sequence>
-				<xsd:element name="Login" type="login:Login" />
+				<xsd:element name="LoginDetails" type="login:Login" />
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
-</xsd:schema>  
+</xsd:schema>

@@ -1,9 +1,9 @@
-package info.javateam.web.service.endpoint;
+package info.javateam.services.endpoints;
 
-import info.javateam.web.service.LoginService;
-import info.javateam.web.webservice.Login;
-import info.javateam.web.webservice.loginservice.LoginRequest;
-import info.javateam.web.webservice.loginservice.LoginResponse;
+import info.javateam.services.LoginService;
+import info.javateam.webservices.Login;
+import info.javateam.webservices.loginservice.LoginRequest;
+import info.javateam.webservices.loginservice.LoginResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ws.server.endpoint.annotation.Endpoint;
@@ -13,21 +13,24 @@ import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 
 @Endpoint
 public class LoginServiceEndpoint {
-	private static final String TARGET_NAMESPACE = "http://info/javateam/web/webservice/loginservice";
+	private static final String TARGET_NAMESPACE = "http://info/javateam/webservices/loginservice";
 	@Autowired
 	private LoginService loginService;
 
+	
+	
 	@PayloadRoot(localPart = "LoginRequest", namespace = TARGET_NAMESPACE)
 	public @ResponsePayload
-	LoginResponse login(@RequestPayload LoginRequest request) {
+	LoginResponse getLoginDetails(
+			@RequestPayload LoginRequest request) {
 		LoginResponse response = new LoginResponse();
-		Login login = loginService.login("test", "test");
-		response.setLogin(login);
+		/* call Spring injected service implementation to retrieve account data */
+		Login login = loginService.getLoginDetails(request.getUsername(), request.getPassword());
+		response.setLoginDetails(login);
 		return response;
 	}
 
 	public void setLoginService(LoginService loginService) {
 		this.loginService = loginService;
 	}
-
 }

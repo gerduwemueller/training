@@ -1,9 +1,9 @@
-package info.javateam.service.impl;
+package info.javateam.services.impl;
 
 
 import info.javateam.dao.PersonDao;
 import info.javateam.domain.impl.Person;
-import info.javateam.service.PersonService;
+import info.javateam.services.PersonService;
 
 import java.util.List;
 

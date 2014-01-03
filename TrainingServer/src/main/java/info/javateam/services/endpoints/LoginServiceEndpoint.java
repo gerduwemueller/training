@@ -24,7 +24,6 @@ public class LoginServiceEndpoint {
 	LoginResponse getLoginDetails(
 			@RequestPayload LoginRequest request) {
 		LoginResponse response = new LoginResponse();
-		/* call Spring injected service implementation to retrieve account data */
 		Login login = loginService.getLoginDetails(request.getUsername(), request.getPassword());
 		response.setLoginDetails(login);
 		return response;

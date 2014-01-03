@@ -1,4 +1,4 @@
-package info.javateam.service;
+package info.javateam.services;
 
 
 /**

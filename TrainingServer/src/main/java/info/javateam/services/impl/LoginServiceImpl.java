@@ -1,5 +1,6 @@
-package info.javateam.services;
+package info.javateam.services.impl;
 
+import info.javateam.services.LoginService;
 import info.javateam.webservices.EnumLoginStatus;
 import info.javateam.webservices.Login;
 
@@ -15,8 +16,8 @@ public class LoginServiceImpl implements LoginService
 	@Override
 	public Login getLoginDetails(String username, String password) {
 		Login login = new Login();
-		login.setUsername("dummy");
-		login.setPassword("dummy");
+		login.setUsername("in="+ username + " out=dummy");
+		login.setPassword("in="+ password + " out=dummy");
 		login.setStatus(EnumLoginStatus.FAILED);
 		return login;
 	}  

@@ -1,6 +1,7 @@
 package info.javateam.service;
 
 import info.javateam.domain.impl.Person;
+import info.javateam.services.PersonService;
 
 import java.util.List;
 

@@ -1,9 +1,9 @@
-package info.javateam.service.impl;
+package info.javateam.services.impl;
 
 
 import info.javateam.dao.AddressDao;
 import info.javateam.domain.impl.Address;
-import info.javateam.service.AddressService;
+import info.javateam.services.AddressService;
 
 import java.util.List;
 

@@ -9,5 +9,15 @@ Wird generiert:
 http://localhost:8080/trainingServer/endpoint/LoginService.wsdl
 http://sourceforge.net/projects/soapui/files/latest/download
 
-Generiert Domains:
-jaxb2:xjc
+
+=========================================================================
+Folgende Packages werden durch das Goal generiert
+Quelle: webapp/schemas/*.xsd
+mvn jaxb2:xjc
+-> info.javateam.webservices
+-> info.javateam.webservices.loginservice
+
+WebService:
+-> info.javateam.services
+-> info.javateam.services.impl
+* endpoints rufen den service auf

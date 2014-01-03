@@ -1,6 +1,7 @@
 package info.javateam.service;
 
 import info.javateam.domain.impl.Address;
+import info.javateam.services.AddressService;
 
 import java.util.List;
 

@@ -109,10 +109,10 @@
 		<property name="sessionFactory" ref="sessionFactory" />
 	</bean>
 
-	<bean id="PersonService" class="info.javateam.service.impl.PersonServiceImpl">
+	<bean id="PersonService" class="info.javateam.services.impl.PersonServiceImpl">
 		<property name="personDao" ref="PersonDao" />
 	</bean>
-	<bean id="AddressService" class="info.javateam.service.impl.AddressServiceImpl">
+	<bean id="AddressService" class="info.javateam.services.impl.AddressServiceImpl">
 		<property name="addressDao" ref="AddressDao" />
 	</bean>
 

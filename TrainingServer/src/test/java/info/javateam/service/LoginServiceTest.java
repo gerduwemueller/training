@@ -1,5 +1,7 @@
 package info.javateam.service;
 
+import java.io.StringWriter;
+
 import javax.xml.soap.MessageFactory;
 import javax.xml.soap.SOAPBody;
 import javax.xml.soap.SOAPConnection;
@@ -9,6 +11,7 @@ import javax.xml.soap.SOAPEnvelope;
 import javax.xml.soap.SOAPMessage;
 import javax.xml.soap.SOAPPart;
 import javax.xml.transform.OutputKeys;
+import javax.xml.transform.Source;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.stream.StreamResult;
@@ -18,14 +21,29 @@ import org.junit.Test;
 
 public class LoginServiceTest {
 
-	@Test public void loginService() {
+	private String format(Source source) {
 		try {
 			// Transformer für Ausgabe
-            TransformerFactory transformerFactory = TransformerFactory.newInstance();
-            Transformer transformer = transformerFactory.newTransformer();
-            transformer.setOutputProperty(OutputKeys.INDENT, "yes");
-            transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "2");
-
+	        Transformer transformer = TransformerFactory.newInstance().newTransformer();
+	        transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "2");
+	        transformer.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "yes");
+	        transformer.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
+	        transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+		
+	        StreamResult xmlOutput = new StreamResult(new StringWriter());
+	        transformer.transform(source, xmlOutput);
+	        
+	        return xmlOutput.getWriter().toString();
+	        
+		} catch (Exception e) {
+			Assert.fail("Format throws exception");
+		} 
+		return null;
+	}
+	
+	@Test public void loginService() {
+		try {
+            
 			// Request Objekt erstellen
 			MessageFactory messageFactory = MessageFactory.newInstance();
 			SOAPMessage soapRequest = messageFactory.createMessage();
@@ -42,7 +60,7 @@ public class LoginServiceTest {
 
             // Request ausgeben
             System.out.println("\nRequest SOAP Message = ");
-            transformer.transform(soapRequest.getSOAPPart().getContent(), new StreamResult(System.out));
+            System.out.println(format(soapRequest.getSOAPPart().getContent()));
             
             // Verbindung herstellen
             SOAPConnection soapConnection = SOAPConnectionFactory.newInstance().createConnection();
@@ -52,9 +70,8 @@ public class LoginServiceTest {
             
             // Response ausgeben
             System.out.println("\nResponse SOAP Message = ");
-            transformer.transform(soapResponse.getSOAPPart().getContent(), new StreamResult(System.out));
-            
-            
+            System.out.println(format(soapResponse.getSOAPPart().getContent()));
+
 		} catch (Exception e) {
 			Assert.fail("SOAP throws exception");
 		}

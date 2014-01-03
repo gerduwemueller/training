@@ -6,9 +6,6 @@ import info.javateam.webservices.Login;
 
 import org.springframework.stereotype.Service;
 
-/**  
- * The Class AccountService.  
- */  
 @Service  
 public class LoginServiceImpl implements LoginService  
 {  
